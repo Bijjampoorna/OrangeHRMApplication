@@ -1,0 +1,177 @@
+2022-12-23 14:38:56,795 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:38:57,125 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:38:57,563 - com.Utility.Log -INFO - oHRM LoginPage Image Validation Sucessfull
+2022-12-23 14:38:57,565 - com.Utility.Log -INFO - OHRM LoginPage Image Validation Test Sucessfull
+2022-12-23 14:38:58,183 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:38:59,316 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:38:59,613 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:38:59,997 - com.Utility.Log -INFO - oHRM LoginPage TextValidation Sucessfull
+2022-12-23 14:39:00,000 - com.Utility.Log -INFO - OHRM LoginPage text Validation Test Sucessfull
+2022-12-23 14:39:00,626 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:39:01,689 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:39:01,998 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:39:03,258 - com.Utility.Log -INFO - OHRM LoginPage Login Functionality Sucessfull
+2022-12-23 14:39:03,261 - com.Utility.Log -INFO - OHRM Login Functionality Test Sucessfull
+2022-12-23 14:39:03,913 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:39:05,044 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:39:05,343 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:39:06,672 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Sucessfull
+2022-12-23 14:39:06,674 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Tested Sucessfully
+2022-12-23 14:39:07,336 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:39:08,399 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:39:10,669 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:39:13,428 - com.Utility.Log -INFO - Orange HRM HomePage text Validation Sucessfull
+2022-12-23 14:39:13,431 - com.Utility.Log -INFO - Orange HRM HomePage Image Text Validation Tested Sucessfully
+2022-12-23 14:39:14,096 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:39:15,155 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:39:15,493 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:39:20,465 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality sucessfull
+2022-12-23 14:39:20,467 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality Tested Sucessfully
+2022-12-23 14:39:21,130 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:39:22,187 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:39:22,532 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:39:27,700 - com.Utility.Log -INFO - Orange HRM EmployeeList Functionality sucessfull
+2022-12-23 14:39:27,702 - com.Utility.Log -INFO - Orange HRM Employee List Functionality Tested Sucessfully
+2022-12-23 14:39:28,347 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:39:29,406 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:39:29,726 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:39:34,726 - com.Utility.Log -INFO - Orange HRM Candidate Functionality sucessfull
+2022-12-23 14:39:34,728 - com.Utility.Log -INFO - Orange HRM Candidates Functionality Tested Sucessfully
+2022-12-23 14:39:35,399 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 14:39:36,509 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 14:39:36,809 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 14:39:43,596 - com.Utility.Log -INFO - Orange HRM Performance Review Functionality sucessfull
+2022-12-23 14:39:43,597 - com.Utility.Log -INFO - Orange HRM Performance Functionality Tested Sucessfully
+2022-12-23 14:39:44,254 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:13,238 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:14,047 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:01:14,787 - com.Utility.Log -INFO - oHRM LoginPage Image Validation Sucessfull
+2022-12-23 18:01:14,790 - com.Utility.Log -INFO - OHRM LoginPage Image Validation Test Sucessfull
+2022-12-23 18:01:15,467 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:16,795 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:17,348 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:01:17,866 - com.Utility.Log -INFO - oHRM LoginPage TextValidation Sucessfull
+2022-12-23 18:01:17,871 - com.Utility.Log -INFO - OHRM LoginPage text Validation Test Sucessfull
+2022-12-23 18:01:18,540 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:19,890 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:20,527 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:01:22,755 - com.Utility.Log -INFO - OHRM LoginPage Login Functionality Sucessfull
+2022-12-23 18:01:22,758 - com.Utility.Log -INFO - OHRM Login Functionality Test Sucessfull
+2022-12-23 18:01:23,392 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:24,681 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:25,240 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:01:27,373 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Sucessfull
+2022-12-23 18:01:27,376 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Tested Sucessfully
+2022-12-23 18:01:28,027 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:29,338 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:29,856 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:01:32,822 - com.Utility.Log -INFO - Orange HRM HomePage text Validation Sucessfull
+2022-12-23 18:01:32,825 - com.Utility.Log -INFO - Orange HRM HomePage Image Text Validation Tested Sucessfully
+2022-12-23 18:01:33,480 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:34,925 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:35,656 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:01:41,951 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality sucessfull
+2022-12-23 18:01:41,955 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality Tested Sucessfully
+2022-12-23 18:01:42,673 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:43,854 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:44,313 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:01:51,433 - com.Utility.Log -INFO - Orange HRM EmployeeList Functionality sucessfull
+2022-12-23 18:01:51,436 - com.Utility.Log -INFO - Orange HRM Employee List Functionality Tested Sucessfully
+2022-12-23 18:01:52,123 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:01:53,514 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:01:54,235 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:02:01,090 - com.Utility.Log -INFO - Orange HRM Candidate Functionality sucessfull
+2022-12-23 18:02:01,092 - com.Utility.Log -INFO - Orange HRM Candidates Functionality Tested Sucessfully
+2022-12-23 18:02:01,759 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 18:02:02,987 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 18:02:03,513 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 18:02:11,878 - com.Utility.Log -INFO - Orange HRM Performance Review Functionality sucessfull
+2022-12-23 18:02:11,897 - com.Utility.Log -INFO - Orange HRM Performance Functionality Tested Sucessfully
+2022-12-23 18:02:12,650 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:54:26,645 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:54:27,175 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:54:27,832 - com.Utility.Log -INFO - oHRM LoginPage Image Validation Sucessfull
+2022-12-23 19:54:27,836 - com.Utility.Log -INFO - OHRM LoginPage Image Validation Test Sucessfull
+2022-12-23 19:54:28,493 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:54:29,874 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:54:30,486 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:54:31,094 - com.Utility.Log -INFO - oHRM LoginPage TextValidation Sucessfull
+2022-12-23 19:54:31,099 - com.Utility.Log -INFO - OHRM LoginPage text Validation Test Sucessfull
+2022-12-23 19:54:31,783 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:54:33,070 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:54:33,549 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:54:35,622 - com.Utility.Log -INFO - OHRM LoginPage Login Functionality Sucessfull
+2022-12-23 19:54:35,626 - com.Utility.Log -INFO - OHRM Login Functionality Test Sucessfull
+2022-12-23 19:54:36,311 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:54:37,816 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:54:38,343 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:54:40,393 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Sucessfull
+2022-12-23 19:54:40,396 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Tested Sucessfully
+2022-12-23 19:54:41,056 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:54:42,328 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:54:42,877 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:54:44,913 - com.Utility.Log -INFO - Orange HRM HomePage text Validation Sucessfull
+2022-12-23 19:54:44,917 - com.Utility.Log -INFO - Orange HRM HomePage Image Text Validation Tested Sucessfully
+2022-12-23 19:54:45,589 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:54:46,882 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:54:47,424 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:54:53,300 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality sucessfull
+2022-12-23 19:54:53,300 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality Tested Sucessfully
+2022-12-23 19:54:53,973 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:54:55,772 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:54:56,214 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:55:02,294 - com.Utility.Log -INFO - Orange HRM EmployeeList Functionality sucessfull
+2022-12-23 19:55:02,302 - com.Utility.Log -INFO - Orange HRM Employee List Functionality Tested Sucessfully
+2022-12-23 19:55:03,008 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:55:04,328 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:55:04,833 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:55:10,821 - com.Utility.Log -INFO - Orange HRM Candidate Functionality sucessfull
+2022-12-23 19:55:10,821 - com.Utility.Log -INFO - Orange HRM Candidates Functionality Tested Sucessfully
+2022-12-23 19:55:11,562 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:55:12,866 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:55:13,386 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:55:21,317 - com.Utility.Log -INFO - Orange HRM Performance Review Functionality sucessfull
+2022-12-23 19:55:21,322 - com.Utility.Log -INFO - Orange HRM Performance Functionality Tested Sucessfully
+2022-12-23 19:55:22,081 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:56:48,926 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:56:49,577 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:56:50,187 - com.Utility.Log -INFO - oHRM LoginPage Image Validation Sucessfull
+2022-12-23 19:56:50,190 - com.Utility.Log -INFO - OHRM LoginPage Image Validation Test Sucessfull
+2022-12-23 19:56:50,845 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:56:52,241 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:56:52,931 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:56:53,645 - com.Utility.Log -INFO - oHRM LoginPage TextValidation Sucessfull
+2022-12-23 19:56:53,651 - com.Utility.Log -INFO - OHRM LoginPage text Validation Test Sucessfull
+2022-12-23 19:56:54,339 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:56:55,715 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:56:56,273 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:56:59,243 - com.Utility.Log -INFO - OHRM LoginPage Login Functionality Sucessfull
+2022-12-23 19:56:59,248 - com.Utility.Log -INFO - OHRM Login Functionality Test Sucessfull
+2022-12-23 19:56:59,896 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:57:01,162 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:57:01,815 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:57:04,678 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Sucessfull
+2022-12-23 19:57:04,682 - com.Utility.Log -INFO - Orange HRM HomePage Image Validation Tested Sucessfully
+2022-12-23 19:57:05,334 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:57:06,582 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:57:07,122 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:57:09,887 - com.Utility.Log -INFO - Orange HRM HomePage text Validation Sucessfull
+2022-12-23 19:57:09,891 - com.Utility.Log -INFO - Orange HRM HomePage Image Text Validation Tested Sucessfully
+2022-12-23 19:57:10,547 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:57:11,777 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:57:12,263 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:57:18,348 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality sucessfull
+2022-12-23 19:57:18,350 - com.Utility.Log -INFO - Orange HRM Add Employee Functionality Tested Sucessfully
+2022-12-23 19:57:19,028 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:57:20,253 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:57:20,912 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:57:27,672 - com.Utility.Log -INFO - Orange HRM EmployeeList Functionality sucessfull
+2022-12-23 19:57:27,675 - com.Utility.Log -INFO - Orange HRM Employee List Functionality Tested Sucessfully
+2022-12-23 19:57:28,388 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:57:29,723 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:57:30,227 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 19:57:37,039 - com.Utility.Log -INFO - Orange HRM Candidate Functionality sucessfull
+2022-12-23 19:57:37,040 - com.Utility.Log -INFO - Orange HRM Candidates Functionality Tested Sucessfully
+2022-12-23 19:57:37,730 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 19:57:38,924 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 19:57:39,378 - com.Utility.Log -INFO - Navigated to the page Sucessfully

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRMApplication parallel=test" duration-ms="59539" started-at="2022-12-25T10:21:20Z" finished-at="2022-12-25T10:22:20Z">
+    <groups>
+    </groups>
+    <test name="LogInTest" duration-ms="20426" started-at="2022-12-25T10:21:20Z" finished-at="2022-12-25T10:21:41Z">
+      <class name="com.LoginwithMultipleData.ValidatingLogOutPage">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.LoginwithMultipleData.ValidatingLogOutPage@6b71769e]" name="applicationLaunch" is-config="true" duration-ms="2612" started-at="2022-12-25T15:51:20Z" finished-at="2022-12-25T15:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="ValidatingLoginPage()[pri:1, instance:com.LoginwithMultipleData.ValidatingLogOutPage@6b71769e]" name="ValidatingLoginPage" duration-ms="836" started-at="2022-12-25T15:51:23Z" finished-at="2022-12-25T15:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingLoginPage -->
+        <test-method status="PASS" signature="loginFunctionalityOfOHRM()[pri:2, instance:com.LoginwithMultipleData.ValidatingLogOutPage@6b71769e]" name="loginFunctionalityOfOHRM" duration-ms="16053" started-at="2022-12-25T15:51:24Z" finished-at="2022-12-25T15:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionalityOfOHRM -->
+        <test-method status="PASS" signature="logoutPageValidation()[pri:3, instance:com.LoginwithMultipleData.ValidatingLogOutPage@6b71769e]" name="logoutPageValidation" duration-ms="215" started-at="2022-12-25T15:51:40Z" finished-at="2022-12-25T15:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPageValidation -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.LoginwithMultipleData.ValidatingLogOutPage@6b71769e]" name="applicationClose" is-config="true" duration-ms="699" started-at="2022-12-25T15:51:40Z" finished-at="2022-12-25T15:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- com.LoginwithMultipleData.ValidatingLogOutPage -->
+    </test> <!-- LogInTest -->
+    <test name="AddEmployee" duration-ms="20112" started-at="2022-12-25T10:21:41Z" finished-at="2022-12-25T10:22:01Z">
+      <class name="com.AddEmployee.LogOutFunctionality">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="applicationLaunch" is-config="true" duration-ms="1962" started-at="2022-12-25T15:51:41Z" finished-at="2022-12-25T15:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="ValidatingLoginPage()[pri:1, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="ValidatingLoginPage" duration-ms="106" started-at="2022-12-25T15:51:43Z" finished-at="2022-12-25T15:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingLoginPage -->
+        <test-method status="PASS" signature="loginFunctionalityOfOHRM()[pri:2, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="loginFunctionalityOfOHRM" duration-ms="1134" started-at="2022-12-25T15:51:43Z" finished-at="2022-12-25T15:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionalityOfOHRM -->
+        <test-method status="PASS" signature="OHRM_Homepage()[pri:3, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="OHRM_Homepage" duration-ms="5712" started-at="2022-12-25T15:51:44Z" finished-at="2022-12-25T15:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRM_Homepage -->
+        <test-method status="PASS" signature="addEmployeePageText()[pri:4, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="addEmployeePageText" duration-ms="86" started-at="2022-12-25T15:51:50Z" finished-at="2022-12-25T15:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeePageText -->
+        <test-method status="PASS" signature="ValidatingFunctionalityOfAddEmployeeName()[pri:5, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="ValidatingFunctionalityOfAddEmployeeName" duration-ms="8106" started-at="2022-12-25T15:51:50Z" finished-at="2022-12-25T15:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingFunctionalityOfAddEmployeeName -->
+        <test-method status="PASS" signature="logOut()[pri:6, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="logOut" duration-ms="2309" started-at="2022-12-25T15:51:58Z" finished-at="2022-12-25T15:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.AddEmployee.LogOutFunctionality@59a6e353]" name="applicationClose" is-config="true" duration-ms="691" started-at="2022-12-25T15:52:00Z" finished-at="2022-12-25T15:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- com.AddEmployee.LogOutFunctionality -->
+    </test> <!-- AddEmployee -->
+    <test name="EmployeeList" duration-ms="18978" started-at="2022-12-25T10:22:01Z" finished-at="2022-12-25T10:22:20Z">
+      <class name="com.EmployeeList.LogOutFunctionality">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.EmployeeList.LogOutFunctionality@6442b0a6]" name="applicationLaunch" is-config="true" duration-ms="2058" started-at="2022-12-25T15:52:01Z" finished-at="2022-12-25T15:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="ValidatingLoginPage()[pri:1, instance:com.EmployeeList.LogOutFunctionality@6442b0a6]" name="ValidatingLoginPage" duration-ms="75" started-at="2022-12-25T15:52:03Z" finished-at="2022-12-25T15:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingLoginPage -->
+        <test-method status="PASS" signature="loginFunctionalityOfOHRM()[pri:2, instance:com.EmployeeList.LogOutFunctionality@6442b0a6]" name="loginFunctionalityOfOHRM" duration-ms="1102" started-at="2022-12-25T15:52:03Z" finished-at="2022-12-25T15:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionalityOfOHRM -->
+        <test-method status="PASS" signature="OHRM_Homepage()[pri:3, instance:com.EmployeeList.LogOutFunctionality@6442b0a6]" name="OHRM_Homepage" duration-ms="7854" started-at="2022-12-25T15:52:04Z" finished-at="2022-12-25T15:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRM_Homepage -->
+        <test-method status="PASS" signature="ValidatingEmloyeeList()[pri:4, instance:com.EmployeeList.LogOutFunctionality@6442b0a6]" name="ValidatingEmloyeeList" duration-ms="2067" started-at="2022-12-25T15:52:12Z" finished-at="2022-12-25T15:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingEmloyeeList -->
+        <test-method status="PASS" signature="logOut()[pri:6, instance:com.EmployeeList.LogOutFunctionality@6442b0a6]" name="logOut" duration-ms="5164" started-at="2022-12-25T15:52:14Z" finished-at="2022-12-25T15:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.EmployeeList.LogOutFunctionality@6442b0a6]" name="applicationClose" is-config="true" duration-ms="653" started-at="2022-12-25T15:52:19Z" finished-at="2022-12-25T15:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- com.EmployeeList.LogOutFunctionality -->
+    </test> <!-- EmployeeList -->
+  </suite> <!-- OrangeHRMApplication parallel=test -->
+</testng-results>

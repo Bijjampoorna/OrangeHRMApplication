@@ -1,0 +1,34 @@
+package com.OrangeHRMApplicationTestCases_PagesTest;
+
+import com.BaseTest.BaseTest;
+import com.OrangeHRMApplicationPages.OrangeHRMApplicationHomePage;
+import com.Utility.Log;
+
+public class OrangeHRMApplicationHomePageTest extends BaseTest 
+{
+
+	OrangeHRMApplicationHomePage OAHPT;
+	
+	public void oHRMHomePageImageValidationTest()
+	{
+		OAHPT=new OrangeHRMApplicationHomePage();
+		OAHPT.oHRMHomePageImageValidation();
+		Log.info("Orange HRM HomePage Image Validation Tested Sucessfully");
+		
+	}
+	
+	public void oHRMHomePageTextValidationTest()
+	{
+		OAHPT=new OrangeHRMApplicationHomePage();
+		OAHPT.oHRMHomePageTextValidation();
+		Log.info("Orange HRM HomePage Image Text Tested Sucessfully");
+		
+	}
+	
+	public void oHRMAddemployeeFunctionalityTest()
+	{
+		OAHPT=new OrangeHRMApplicationHomePage();
+		OAHPT.oHRMAddemployeeFunctionality();
+		
+	}
+}

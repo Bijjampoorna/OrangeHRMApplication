@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRMApplication Login Page" duration-ms="57611" started-at="2022-12-23T14:24:24Z" finished-at="2022-12-23T14:25:22Z">
+    <groups>
+    </groups>
+    <test name="LogInPageTest" duration-ms="11841" started-at="2022-12-23T14:24:24Z" finished-at="2022-12-23T14:24:36Z">
+      <class name="com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="applicationLaunch" is-config="true" duration-ms="3233" started-at="2022-12-23T19:54:24Z" finished-at="2022-12-23T19:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="OHRMLoginPageImageValidationTest()[pri:1, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="OHRMLoginPageImageValidationTest" duration-ms="123" started-at="2022-12-23T19:54:27Z" finished-at="2022-12-23T19:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRMLoginPageImageValidationTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="applicationClose" is-config="true" duration-ms="655" started-at="2022-12-23T19:54:27Z" finished-at="2022-12-23T19:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="applicationLaunch" is-config="true" duration-ms="2537" started-at="2022-12-23T19:54:28Z" finished-at="2022-12-23T19:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="OHRMLoginPagetextValidationTest()[pri:2, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="OHRMLoginPagetextValidationTest" duration-ms="66" started-at="2022-12-23T19:54:31Z" finished-at="2022-12-23T19:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRMLoginPagetextValidationTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="applicationClose" is-config="true" duration-ms="683" started-at="2022-12-23T19:54:31Z" finished-at="2022-12-23T19:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="applicationLaunch" is-config="true" duration-ms="2269" started-at="2022-12-23T19:54:31Z" finished-at="2022-12-23T19:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="OHRMLoginFuctionalityTest()[pri:3, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="OHRMLoginFuctionalityTest" duration-ms="1574" started-at="2022-12-23T19:54:34Z" finished-at="2022-12-23T19:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRMLoginFuctionalityTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest@35bbe5e8]" name="applicationClose" is-config="true" duration-ms="683" started-at="2022-12-23T19:54:35Z" finished-at="2022-12-23T19:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest -->
+    </test> <!-- LogInPageTest -->
+    <test name="HomePageTest" duration-ms="45754" started-at="2022-12-23T14:24:36Z" finished-at="2022-12-23T14:25:22Z">
+      <class name="com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationLaunch" is-config="true" duration-ms="2553" started-at="2022-12-23T19:54:36Z" finished-at="2022-12-23T19:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="oHRMHomePageImageValidationTest()[pri:1, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="oHRMHomePageImageValidationTest" duration-ms="1516" started-at="2022-12-23T19:54:38Z" finished-at="2022-12-23T19:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMHomePageImageValidationTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationClose" is-config="true" duration-ms="660" started-at="2022-12-23T19:54:40Z" finished-at="2022-12-23T19:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationLaunch" is-config="true" duration-ms="2308" started-at="2022-12-23T19:54:41Z" finished-at="2022-12-23T19:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="oHRMHomePageTextValidationTest()[pri:2, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="oHRMHomePageTextValidationTest" duration-ms="1553" started-at="2022-12-23T19:54:43Z" finished-at="2022-12-23T19:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMHomePageTextValidationTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationClose" is-config="true" duration-ms="672" started-at="2022-12-23T19:54:44Z" finished-at="2022-12-23T19:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationLaunch" is-config="true" duration-ms="2350" started-at="2022-12-23T19:54:45Z" finished-at="2022-12-23T19:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="oHRMAddemployeeFunctionalityTest()[pri:3, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="oHRMAddemployeeFunctionalityTest" duration-ms="5360" started-at="2022-12-23T19:54:47Z" finished-at="2022-12-23T19:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMAddemployeeFunctionalityTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationClose" is-config="true" duration-ms="673" started-at="2022-12-23T19:54:53Z" finished-at="2022-12-23T19:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationLaunch" is-config="true" duration-ms="2674" started-at="2022-12-23T19:54:53Z" finished-at="2022-12-23T19:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="oHRMEmployeeListFunctionalityTest()[pri:4, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="oHRMEmployeeListFunctionalityTest" duration-ms="5655" started-at="2022-12-23T19:54:56Z" finished-at="2022-12-23T19:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMEmployeeListFunctionalityTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationClose" is-config="true" duration-ms="706" started-at="2022-12-23T19:55:02Z" finished-at="2022-12-23T19:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationLaunch" is-config="true" duration-ms="2297" started-at="2022-12-23T19:55:03Z" finished-at="2022-12-23T19:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="oHRMCandidateFunctionalityTest()[pri:5, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="oHRMCandidateFunctionalityTest" duration-ms="5516" started-at="2022-12-23T19:55:05Z" finished-at="2022-12-23T19:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMCandidateFunctionalityTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationClose" is-config="true" duration-ms="741" started-at="2022-12-23T19:55:10Z" finished-at="2022-12-23T19:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationLaunch" is-config="true" duration-ms="2278" started-at="2022-12-23T19:55:11Z" finished-at="2022-12-23T19:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="oHRMPerformanceFunctionalityTest()[pri:6, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="oHRMPerformanceFunctionalityTest" duration-ms="7482" started-at="2022-12-23T19:55:13Z" finished-at="2022-12-23T19:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMPerformanceFunctionalityTest -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@6e8dacdf]" name="applicationClose" is-config="true" duration-ms="758" started-at="2022-12-23T19:55:21Z" finished-at="2022-12-23T19:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- OrangeHRMApplication Login Page -->
+</testng-results>

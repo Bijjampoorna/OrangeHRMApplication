@@ -1,0 +1,36 @@
+2022-12-23 11:58:50,922 - com.Utility.Log -INFO - oHRMLoginPageImageValidation Sucessfull
+2022-12-23 11:58:50,925 - com.Utility.Log -INFO - OHRMLoginPageImageValidationTest Sucessfull
+2022-12-23 11:58:53,280 - com.Utility.Log -INFO - oHRMLoginPageTextValidation Sucessfull
+2022-12-23 11:58:53,282 - com.Utility.Log -INFO - OHRMLoginPagetextValidationTest Sucessfull
+2022-12-23 11:58:58,011 - com.Utility.Log -INFO - OHRMLoginPageLoginFunctionality Sucessfull
+2022-12-23 11:58:58,014 - com.Utility.Log -INFO - OHRMLoginFunctionality Sucessfull
+2022-12-23 12:01:40,361 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 12:01:40,702 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 12:01:41,152 - com.Utility.Log -INFO - oHRM LoginPage Image Validation Sucessfull
+2022-12-23 12:01:41,154 - com.Utility.Log -INFO - OHRM LoginPage Image Validation Test Sucessfull
+2022-12-23 12:01:41,788 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 12:01:42,844 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 12:01:43,159 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 12:01:43,561 - com.Utility.Log -INFO - oHRM LoginPage TextValidation Sucessfull
+2022-12-23 12:01:43,563 - com.Utility.Log -INFO - OHRM LoginPage text Validation Test Sucessfull
+2022-12-23 12:01:44,185 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 12:01:45,317 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 12:01:45,625 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 12:01:46,858 - com.Utility.Log -INFO - OHRM LoginPage Login Functionality Sucessfull
+2022-12-23 12:01:46,860 - com.Utility.Log -INFO - OHRM Login Functionality Test Sucessfull
+2022-12-23 12:01:47,494 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 12:06:23,403 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 12:06:23,727 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 12:06:24,164 - com.Utility.Log -INFO - oHRM LoginPage Image Validation Sucessfull
+2022-12-23 12:06:24,165 - com.Utility.Log -INFO - OHRM LoginPage Image Validation Test Sucessfull
+2022-12-23 12:06:24,791 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 12:06:25,850 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 12:06:26,167 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 12:06:26,584 - com.Utility.Log -INFO - oHRM LoginPage TextValidation Sucessfull
+2022-12-23 12:06:26,585 - com.Utility.Log -INFO - OHRM LoginPage text Validation Test Sucessfull
+2022-12-23 12:06:27,213 - com.Utility.Log -INFO - Driver closed Sucessfully
+2022-12-23 12:06:28,272 - com.Utility.Log -INFO - Driver Lauched Succesfully
+2022-12-23 12:06:28,576 - com.Utility.Log -INFO - Navigated to the page Sucessfully
+2022-12-23 12:06:29,819 - com.Utility.Log -INFO - OHRM LoginPage Login Functionality Sucessfull
+2022-12-23 12:06:29,822 - com.Utility.Log -INFO - OHRM Login Functionality Test Sucessfull
+2022-12-23 12:06:30,465 - com.Utility.Log -INFO - Driver closed Sucessfully

@@ -1,0 +1,37 @@
+package com.JQueryDragAndDrop;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class DragAndDrop extends BaseTest{
+	@Test
+	public void DragAndDropTest()
+	{
+		//<iframe src="/resources/demos/droppable/default.html" class="demo-frame" xpath="1" style=""></iframe>
+		//demo-frame-Class
+		
+		By jQueryFrameL=By.className("demo-frame");
+		WebElement jQueryFrameElement=driver.findElement(jQueryFrameL);
+		
+		driver.switchTo().frame(jQueryFrameElement);
+		
+		//identifying elements in JQuery frame Element
+		
+		////div[@id='draggable']
+		By draggableL=By.xpath("//div[@id='draggable']");
+		WebElement draggableElement=driver.findElement(draggableL);
+		
+		String draggableText=draggableElement.getText();
+		System.out.println("The Text Of draggable element :- "+draggableText);
+		
+		//droppable-Id
+		By droppableL=By.id("droppable");
+		WebElement droppableElement=driver.findElement(droppableL);
+		String droppableText=droppableElement.getText();
+		System.out.println("The Text Of droppable element:- "+droppableText);
+		
+	}
+
+}

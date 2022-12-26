@@ -1,0 +1,19 @@
+package com.OrangeHRMApplicationPages;
+
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class OrangeHRMApplicationHomePage extends OrangeHRMApplicationLoginPage
+{
+
+	public OrangeHRMApplicationHomePage()
+	{
+		PageFactory.initElements(driver, this);
+		
+	}
+	
+	@FindBy(xpath="//img[@alt='OrangeHRM']")
+	
+	
+	
+}

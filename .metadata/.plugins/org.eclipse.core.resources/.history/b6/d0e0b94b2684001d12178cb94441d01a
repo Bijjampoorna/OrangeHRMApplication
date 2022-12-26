@@ -1,0 +1,126 @@
+package stepDefinition;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class OrangeHRMApplicationMethods 
+{
+	WebDriver driver;
+	String applicationURLAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+	
+	@Given("^User should open a browser in the system$")
+	public void user_should_open_a_browser_in_the_system()
+	{
+		System.setProperty("webdriver.chrome.driver", ".\\browserDriverFiles\\chromedriver.exe");
+		 driver=new ChromeDriver();
+		 driver.manage().window().maximize();
+		 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	}
+
+	@When("^User enters OrangeHRM Applicatiin URL Address$")
+	public void user_enters_OrangeHRM_Applicatiin_URL_Address()
+	{
+		 driver.get(applicationURLAddress);
+
+	}
+
+	@Then("^User should be able to navigate to the Orange HRM Login Page$")
+	public void user_should_be_able_to_navigate_to_the_Orange_HRM_Login_Page() 
+	{
+		
+		
+		By loginPanelL=By.id("logInPanelHeading");   
+		WebElement loginPanelElemnent=driver.findElement(loginPanelL);		
+		String expectedOHRMApplicationLoginPageText="LOGIN Panel";
+		String actualOHRMApplicationLoginPageText=loginPanelElemnent.getText();
+		
+		if(actualOHRMApplicationLoginPageText.equals(expectedOHRMApplicationLoginPageText))
+		{
+			System.out.println("Titles are Matching-PASS");
+			
+		}
+		else
+		{
+		   System.out.println("Titles Are Not Macthing-FAIL");
+			
+		}
+		
+	}
+
+	@Then("^user should close the application$")
+	public void user_should_close_the_application()
+	{
+	    
+		driver.quit();
+	}
+
+	
+	@Then("^User Should enter the userName and Password and Click on Login Button$")
+	public void user_Should_enter_the_userName_and_Password_and_Click_on_Login_Button() 
+	{
+
+		By userNameL=By.id("txtUsername");
+		WebElement userNameElement=driver.findElement(userNameL);
+		userNameElement.sendKeys("Bijjampoorna");
+		
+		
+		By passwordL=By.id("txtPassword");
+		WebElement passwordElement=driver.findElement(passwordL);
+		passwordElement.sendKeys("Bijjampoorna12$");
+		
+		By loginButtonL=By.id("btnLogin");
+		WebElement loginButtonElement=driver.findElement(loginButtonL);
+		loginButtonElement.click();
+		
+	}
+
+	@Then("^User Should Be Able To Navigate to Orange HRM HomePage$")
+	public void user_Should_Be_Able_To_Navigate_to_Orange_HRM_HomePage() 
+	{
+	   String  expectedTextOfHomePage="Welcome Admin";
+		By welcomeAdminL=By.id("welcome");
+		WebElement welcomeAdminElement=driver.findElement(welcomeAdminL);
+		
+		String actualTextOfHomePage=welcomeAdminElement.getText();
+		
+		if(actualTextOfHomePage.equals(expectedTextOfHomePage))
+		{
+			System.out.println("The Text of HomePage Is Matching-PASS");
+			
+		}
+		else
+		{
+			
+			System.out.println("The Text Of HomePage is Not Matching-Fail");
+		
+		}
+		
+	}
+
+	@Then("^User Should Find and Click on LogOut Button$")
+	public void user_Should_Find_and_Click_on_LogOut_Button() 
+	{
+	  
+		By welcomeAdminElement=By.id("welcome");
+		WebElement welcomeAdminL=driver.findElement(welcomeAdminElement);
+		welcomeAdminL.click();
+
+		//PROPERTY OF LOGOUT ELEMENT
+		By logOutElement=By.linkText("Logout");
+		WebElement logOutL=driver.findElement(logOutElement);
+		logOutL.click();
+		
+		
+	}
+
+	
+}

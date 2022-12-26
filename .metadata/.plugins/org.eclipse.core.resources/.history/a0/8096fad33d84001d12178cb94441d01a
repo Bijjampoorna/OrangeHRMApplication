@@ -1,0 +1,365 @@
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] ERROR com.AddEmployee.VallidatingLoginPage - First Names Are Not Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.EmployeeList.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Both Names Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] ERROR com.LoginwithMultipleData.VallidatingLoginPage - Failed To Login-FAIL
+[main] ERROR com.LoginwithMultipleData.VallidatingLoginPage - Failed To Login-FAIL
+[main] ERROR com.LoginwithMultipleData.VallidatingLoginPage - Failed To Login-FAIL
+[main] ERROR com.LoginwithMultipleData.VallidatingLoginPage - Failed To Login-FAIL
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.LoginwithMultipleData.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] ERROR com.AddEmployee.VallidatingLoginPage - First Names Are Not Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] ERROR com.AddEmployee.VallidatingLoginPage - First Names Are Not Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Name Of Login Test is :- LOGIN Panel
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected loginPage Title is:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Login Page Title:- OrangeHRM
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.AddEmployee.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.AddEmployee.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Expected Text of Add Employee Page Is :- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - The Actual Text of Add Employee Page Is:- Add Employee
+[main] INFO com.AddEmployee.VallidatingLoginPage - At Add employee Page-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] ERROR com.AddEmployee.VallidatingLoginPage - First Names Are Not Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Both Id's Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Titles are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - First Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Middle Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Last Names Are Matching-PASS
+[main] INFO com.AddEmployee.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.EmployeeList.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.EmployeeList.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.EmployeeList.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Both Names Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.EmployeeList.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Both Names Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.EmployeeList.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Both Names Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page
+[main] INFO com.EmployeeList.VallidatingLoginPage - Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - The UserName is :- Bijjampoorna
+[main] INFO com.EmployeeList.VallidatingLoginPage - The PassWord is :- Bijjampoorna12$
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Expected HomePage Title:- Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - The Actual HomePage Title:- Welcome Admin
+[main] INFO com.EmployeeList.VallidatingLoginPage - HomePage Titles Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Both Names Are Matching-PASS
+[main] INFO com.EmployeeList.VallidatingLoginPage - Landed at Login Page

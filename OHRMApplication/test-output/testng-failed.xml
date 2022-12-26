@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMApplication parallel=test]">
+  <test name="LogInTest">
+    <classes>
+      <class name="com.LoginwithMultipleData.ValidatingLogOutPage"/>
+    </classes>
+  </test> <!-- LogInTest -->
+  <test name="AddEmployee">
+    <classes>
+      <class name="com.AddEmployee.LogOutFunctionality"/>
+    </classes>
+  </test> <!-- AddEmployee -->
+  <test name="EmployeeList">
+    <classes>
+      <class name="com.EmployeeList.LogOutFunctionality"/>
+    </classes>
+  </test> <!-- EmployeeList -->
+</suite> <!-- Failed suite [OrangeHRMApplication parallel=test] -->

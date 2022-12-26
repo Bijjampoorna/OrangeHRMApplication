@@ -1,0 +1,28 @@
+package com.OrangeHRMApplicationPages;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.BaseTest.BaseTest;
+
+public class OrangeHRMApplicationLoginPage extends BaseTest
+{
+   public OrangeHRMApplicationLoginPage()
+   {
+	   PageFactory.initElements(driver, this);
+	   
+   }
+   //Object Repository
+   
+   FileInputStream propertyfile;
+   Properties pr=new Properties();
+   
+   @FindBy(xpath="//div[@id='divLogo']//img")
+	
+	
+	
+	
+}

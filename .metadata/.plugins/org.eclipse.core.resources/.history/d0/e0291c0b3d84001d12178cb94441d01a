@@ -1,0 +1,99 @@
+package com.EmployeeList;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class DynamicEmployeeData extends ValidatingEmloyeeListPage 
+{
+	@Test(priority=5)
+	public void employeeDataWrite() throws IOException
+	{
+		
+		
+		//Getting The Data from The ExcelWorkbook
+				//Identifying The File
+						 String excelPath="C:\\Users\\Bijjam Poorna\\OneDrive\\Desktop\\Automation Testing\\OHRMApplication\\src\\com\\OHRMExcelWorkBooks\\EmployeeData.xlsx";
+						 FileInputStream testData=new FileInputStream(excelPath);
+						
+				 //Identifying the Workbook
+						 XSSFWorkbook workbook=new XSSFWorkbook(testData);
+						 
+				//IDentifying the Sheet in the WorkBook
+						 XSSFSheet sheet=workbook.getSheet("Sheet1");
+						 
+				
+						 
+						 
+				 //FIRSTCell Of a row
+				 ///html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody/tr[1]/td[4]
+
+						// /html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/thead/tr 
+					//HeaderBlock
+					///html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/thead/tr/th[1]
+			       // /html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/thead/tr/th[8]
+					
+						 
+						 
+						 By webtableHeaderL=By.tagName("tr");
+						WebElement webtableHeader=driver.findElement(webtableHeaderL);
+						 By headerBlockL=By.tagName("th");
+				 List<WebElement> webtableRowCells=webtableHeader.findElements(headerBlockL);
+					int webtableRowCellsCount=webtableRowCells.size();
+					System.out.println(webtableRowCellsCount);
+					
+					 Row sheetRow=sheet.createRow(0);
+					 
+			    	for(int k=1;k<webtableRowCellsCount;k++)
+			    	{
+			    		String webTableData=webtableRowCells.get(k).getText();
+			    		
+			    		Cell cell=sheetRow.createCell(k);
+			    		cell.setCellValue(webTableData);
+			    		System.out.print(webTableData+"     ");
+			    	}
+				  
+			    	By tablerowsL=By.tagName("tr");
+					
+					List<WebElement>  tablerows=driver.findElements(tablerowsL);
+					int tableCount=tablerows.size();
+					System.out.println(tableCount);
+					System.out.println(tableCount);
+					for(int i=1; i<tableCount; i++)
+				    {
+				    	WebElement tableRow=tablerows.get(i);
+				    	By tableColumnL=By.xpath("td");
+				    	List<WebElement> tableColumn=tableRow.findElements(tableColumnL);
+				    	int tableColumnCount=tableColumn.size();
+				    	System.out.println(tableColumnCount);
+				    	
+			    		Row row=sheet.createRow(i);
+				    	for(int j=0;j<tableColumnCount;j++)
+				    	{
+				    		String webTableData=tableColumn.get(j).getText();
+				    		
+				    		Cell cell=row.createCell(j);
+				    		cell.setCellValue(webTableData);
+				    		System.out.print(webTableData+"     ");
+				    	}
+				    	System.out.println();
+				    }
+						 	 
+			FileOutputStream testResults= new FileOutputStream("C:\\Users\\Bijjam Poorna\\OneDrive\\Desktop\\Automation Testing\\OHRMApplication\\src\\com\\OHRMExcelWorkBooks\\EmployeeDataResult.xlsx");
+		    workbook.write(testResults);
+		
+		
+	}
+	
+	
+}

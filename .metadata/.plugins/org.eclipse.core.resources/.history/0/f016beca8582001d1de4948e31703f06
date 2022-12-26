@@ -1,0 +1,22 @@
+package com.OrangeHRMApplicationPages;
+
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.BaseTest.BaseTest;
+
+public class OrangeHRMApplicationLoginPage extends BaseTest
+{
+   public OrangeHRMApplicationLoginPage()
+   {
+	   PageFactory.initElements(driver, this);
+	   
+   }
+   //Object Repository
+   
+   
+	
+	
+	
+	
+}

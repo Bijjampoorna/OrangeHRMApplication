@@ -1,0 +1,23 @@
+<suite name="OrangeHRMApplication parallel=test">
+   <test name="LogInTest">
+     <classes>
+       <class name="com.LoginwithMultipleData.ValidatingLogOutPage"/>
+      </classes>
+  </test>
+  
+  
+  <test name="AddEmployee">
+     <classes>
+       <class name="com.AddEmployee.LogOutFunctionality"/>
+      </classes>
+  </test>
+  
+  <test name="EmployeeList">
+     <classes>
+       <class name="com.EmployeeList.LogOutFunctionality"/>
+      </classes>
+  </test>
+  
+  
+  
+</suite>

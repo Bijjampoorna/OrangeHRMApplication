@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HRM Application]">
+  <parameter name="Browser" value="opera"/>
+  <test name="On Chrome">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.Grid.OHRM_LoginTest"/>
+    </classes>
+  </test> <!-- On Chrome -->
+  <test name="On Opera">
+    <parameter name="Browser" value="opera"/>
+    <classes>
+      <class name="com.Grid.OHRM_LoginTest"/>
+    </classes>
+  </test> <!-- On Opera -->
+  <test name="On Chrome(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.Grid.OHRM_LoginTest">
+        <methods>
+          <include name="applicationLaunch"/>
+          <include name="applicationLaunch"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="applicationClose"/>
+          <include name="applicationClose"/>
+        </methods>
+      </class> <!-- com.Grid.OHRM_LoginTest -->
+    </classes>
+  </test> <!-- On Chrome(failed) -->
+  <test name="On Opera(failed)">
+    <parameter name="Browser" value="opera"/>
+    <classes>
+      <class name="com.Grid.OHRM_LoginTest">
+        <methods>
+          <include name="applicationLaunch"/>
+          <include name="applicationLaunch"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="applicationClose"/>
+          <include name="applicationClose"/>
+        </methods>
+      </class> <!-- com.Grid.OHRM_LoginTest -->
+    </classes>
+  </test> <!-- On Opera(failed) -->
+</suite> <!-- Failed suite [Orange HRM Application] -->
