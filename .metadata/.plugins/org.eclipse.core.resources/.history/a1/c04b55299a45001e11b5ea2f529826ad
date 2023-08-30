@@ -1,0 +1,16 @@
+package com.Login;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+public class LoginVariation 
+{
+	public static void logg()
+	{
+		public static Logger log=Logger.getLogger(LoginVariation.class);
+		//LOGFILE
+				String filePath="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\Log4jFile\\OrangeHRMApplication_POM_LogFiles.properties";
+				PropertyConfigurator.configure(filePath);
+	}
+
+}

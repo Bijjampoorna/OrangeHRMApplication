@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OHRMApplicationExcelOperations" duration-ms="42818" started-at="2023-08-28T12:09:40Z" finished-at="2023-08-28T12:10:23Z">
+    <groups>
+    </groups>
+    <test name="loginTest" duration-ms="20138" started-at="2023-08-28T12:09:40Z" finished-at="2023-08-28T12:10:00Z">
+      <class name="com.LoginFunctionality.LogOutValidation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.LoginFunctionality.LogOutValidation@4c203ea1]" name="setUp" is-config="true" duration-ms="2152" started-at="2023-08-28T17:39:40Z" finished-at="2023-08-28T17:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage()[pri:1, instance:com.LoginFunctionality.LogOutValidation@4c203ea1]" name="loginPage" duration-ms="640" started-at="2023-08-28T17:39:42Z" finished-at="2023-08-28T17:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="LoginFunctionalityOfOrangeHRM()[pri:2, instance:com.LoginFunctionality.LogOutValidation@4c203ea1]" name="LoginFunctionalityOfOrangeHRM" duration-ms="17061" started-at="2023-08-28T17:39:43Z" finished-at="2023-08-28T17:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionalityOfOrangeHRM -->
+        <test-method status="PASS" signature="logOutValidationOfOHRM()[pri:3, instance:com.LoginFunctionality.LogOutValidation@4c203ea1]" name="logOutValidationOfOHRM" duration-ms="190" started-at="2023-08-28T17:40:00Z" finished-at="2023-08-28T17:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutValidationOfOHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.LoginFunctionality.LogOutValidation@4c203ea1]" name="tearDown" is-config="true" duration-ms="86" started-at="2023-08-28T17:40:00Z" finished-at="2023-08-28T17:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LoginFunctionality.LogOutValidation -->
+    </test> <!-- loginTest -->
+    <test name="addEmployee" duration-ms="22668" started-at="2023-08-28T12:10:00Z" finished-at="2023-08-28T12:10:23Z">
+      <class name="com.AddEmployeeFunctionality.LogOut">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AddEmployeeFunctionality.LogOut@7a0ac6e3]" name="setUp" is-config="true" duration-ms="1572" started-at="2023-08-28T17:40:00Z" finished-at="2023-08-28T17:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageValidation()[pri:1, instance:com.AddEmployeeFunctionality.LogOut@7a0ac6e3]" name="LoginPageValidation" duration-ms="1094" started-at="2023-08-28T17:40:02Z" finished-at="2023-08-28T17:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageValidation -->
+        <test-method status="PASS" signature="validatingAddEmployeePage()[pri:2, instance:com.AddEmployeeFunctionality.LogOut@7a0ac6e3]" name="validatingAddEmployeePage" duration-ms="2436" started-at="2023-08-28T17:40:03Z" finished-at="2023-08-28T17:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingAddEmployeePage -->
+        <test-method status="PASS" signature="addingEmployee()[pri:3, instance:com.AddEmployeeFunctionality.LogOut@7a0ac6e3]" name="addingEmployee" duration-ms="14859" started-at="2023-08-28T17:40:06Z" finished-at="2023-08-28T17:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingEmployee -->
+        <test-method status="PASS" signature="logOutFunctionality()[pri:4, instance:com.AddEmployeeFunctionality.LogOut@7a0ac6e3]" name="logOutFunctionality" duration-ms="2580" started-at="2023-08-28T17:40:20Z" finished-at="2023-08-28T17:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AddEmployeeFunctionality.LogOut@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="123" started-at="2023-08-28T17:40:23Z" finished-at="2023-08-28T17:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.AddEmployeeFunctionality.LogOut -->
+    </test> <!-- addEmployee -->
+  </suite> <!-- OHRMApplicationExcelOperations -->
+</testng-results>

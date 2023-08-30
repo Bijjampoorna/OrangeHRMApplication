@@ -1,0 +1,18 @@
+package com.Utility;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class PropertyFile 
+{
+
+	public void property() throws IOException
+	{
+		FileInputStream propertyFilePath=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(propertyFilePath);
+	}
+	
+}

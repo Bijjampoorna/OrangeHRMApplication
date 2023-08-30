@@ -1,0 +1,15 @@
+<suite name="OHRM_TestNG_FrameWork" parellel="tests">
+	<test name="LoginTest">
+		<classes>
+			<parameter name="browser" value="chrome"/>
+			  <class name="com.Login.LogoutPageValidation"/>
+		</classes>
+	</test>
+	
+	<test name="Add Employee">
+		<classes>
+			<parameter name="browser" value="edge"/>
+			  <class name="com.AddEmployee.LogoutValidation"/>
+		</classes>
+	</test>
+</suite>

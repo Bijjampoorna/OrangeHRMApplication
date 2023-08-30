@@ -1,0 +1,121 @@
+package com.AddEmployee;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class AddEmployee_V_F extends HomepageValidation 
+{
+
+	@Test(priority=3)
+	public void addEmployee() throws IOException
+	{
+
+		//PROPERTY FILE
+		FileInputStream propertyFilePath=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(propertyFilePath);
+		
+		//EXCEL FILE
+		FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\src\\com\\ExcelWorkBooks\\AddEmployeeTestDataResults.xlsx");
+		
+		XSSFWorkbook workbook=new XSSFWorkbook(excelFile);		
+		XSSFSheet sheet=workbook.getSheet("Sheet1");
+		
+		int rowCount=sheet.getLastRowNum();
+		//System.out.println("The number of active rows in the sheet is-"+rowCount);
+		log.info("The number of active rows in the sheet is-"+rowCount);
+		
+		Row sheetRow=sheet.getRow(01);
+		By pimElement=By.id(pr.getProperty("PIMElement"));
+		WebElement pimL=driver.findElement(pimElement);
+		Actions act=new Actions(driver);
+		act.moveToElement(pimL).build().perform();
+		
+		By addEmployeeElement=By.id(pr.getProperty("addEmployeeElement"));
+		WebElement addEmployeeL=driver.findElement(addEmployeeElement);
+		addEmployeeL.click();
+		
+		Cell expected_AddEmployeeText=sheetRow.getCell(11);
+		String expectedAddEmployeeText=expected_AddEmployeeText.getStringCellValue();
+		System.out.println("The expected text of add Employee page is-"+expectedAddEmployeeText);
+		
+		By addEmployeeTextElement=By.linkText(pr.getProperty("addEmployeeTitle"));
+		WebElement addEmployeeTextL=driver.findElement(addEmployeeTextElement);
+		String actualAddEmployeeText=addEmployeeTextL.getText();
+		System.out.println("The actual text of add employee is-"+actualAddEmployeeText);
+		
+		Cell actual_AddEmployeeText=sheetRow.createCell(12);
+		actual_AddEmployeeText.setCellValue(actualAddEmployeeText);
+		
+		if(actualAddEmployeeText.equals(expectedAddEmployeeText))
+		{
+			String testResult="Text is Matching";
+			log.info("Landed at Add Employee Page");
+			Cell textTestResult=sheetRow.createCell(13);
+			textTestResult.setCellValue(testResult);
+		}
+		else
+		{
+			String testResult="Text is not Matching";
+			log.info("Failed to Land at Add Employee Page");
+			Cell textTestResult=sheetRow.createCell(13);
+			textTestResult.setCellValue(testResult);
+
+		}
+
+		for(int row=1;row<=rowCount;row++)
+		{
+			sheet.getRow(row);
+			System.out.println("The row is-"+row);
+			
+		//FIRSTNAME-EXPECTED
+			Cell expected_FirstName=sheetRow.getCell(14);
+			String expectedFirstName=expected_FirstName.getStringCellValue();
+			System.out.println("the expected first name of employee is-"+expectedFirstName);
+			
+			By firstNameElement=By.id(pr.getProperty("firstNameElement"));
+			WebElement firstNameL=driver.findElement(firstNameElement);
+			firstNameL.sendKeys(expectedFirstName);
+			
+		//MIDDLE NAME-EXPECTED
+			Cell expected_MiddleName=sheetRow.getCell(15);
+			String expectedMiddleName=expected_MiddleName.getStringCellValue();
+			System.out.println("The expected middle name of employee is-"+expectedMiddleName);
+			
+			By middleNameElement=By.id(pr.getProperty("middleNameElement"));
+			WebElement middleNameL=driver.findElement(middleNameElement);
+			middleNameL.sendKeys(expectedMiddleName);
+			
+		//LASTNAME-EXPECTED
+			Cell expected_LastName=sheetRow.getCell(16);
+			String expectedLastName=expected_LastName.getStringCellValue();
+			System.out.println("the expected last name of employee is-"+expectedLastName);
+			
+			By lastNameElement=By.id(pr.getProperty("lastNameElement"));
+			WebElement lastNameL=driver.findElement(lastNameElement);
+			lastNameL.sendKeys(expectedLastName);
+			
+		//EMPID-EXPECTED
+			
+			
+			
+
+		}
+		
+		
+		FileOutputStream testResults=new FileOutputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\src\\com\\ExcelWorkBooks\\AddEmployeeTestDataResults.xlsx");
+		workbook.write(testResults);
+	}
+	
+}

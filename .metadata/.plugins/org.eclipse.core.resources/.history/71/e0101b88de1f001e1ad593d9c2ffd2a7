@@ -1,0 +1,37 @@
+package com.EmployeeList;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class DynamicEmployeeList extends EmployeeList
+{
+
+	
+	public void dynamicEmployeeListValidation() throws IOException
+	{
+		//PROPERTYFILE	   
+		   FileInputStream proFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+		   Properties pr=new Properties();
+		   pr.load(proFile);
+		   
+	//EXCELFILE
+		   FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\src\\com\\ExcelWorkBooks\\DynamicEmployeeListData.xlsx");
+		   
+		   XSSFWorkbook workbook=new XSSFWorkbook(excelFile);
+		   
+		   XSSFSheet sheet=workbook.getSheet("Sheet1");
+		   
+		   
+		
+		
+	}
+	
+	
+	
+	
+}

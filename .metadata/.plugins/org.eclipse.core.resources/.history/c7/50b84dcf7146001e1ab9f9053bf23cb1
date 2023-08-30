@@ -1,0 +1,7 @@
+<suite name="OHRM_TestNG_FrameWork">
+	<test name="LoginTest">
+		<classes>
+			<class name="com.Login.LogOutPageValidation"/>
+		</classes>
+	</test>
+</suite>

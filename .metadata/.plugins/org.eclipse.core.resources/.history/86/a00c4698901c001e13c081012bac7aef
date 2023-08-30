@@ -1,0 +1,16 @@
+LoginPanelElement=logInPanelHeading
+UserNameElement=txtUsername
+PasswordElement=txtPassword
+LoginBTNElement=btnLogin
+WelcomeAdminElement=welcome
+logOutElement=Logout
+PIMElement=menu_pim_viewPimModule
+addEmployeeElement=menu_pim_addEmployee
+addEmployeeTitle=Add Employee
+firstNameElement=firstName
+middleNameElement=middleName
+lastNameElement=lastName
+saveBtnElement=btnSave
+employeeFirstNameElement=personal_txtEmpFirstName
+employeeMiddleNameElement=personal_txtEmpMiddleName
+employeeLastNameElement=personal_txtEmpLastName

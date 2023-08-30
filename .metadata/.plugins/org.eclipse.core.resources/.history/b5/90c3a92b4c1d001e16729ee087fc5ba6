@@ -1,0 +1,18 @@
+package com.AddEmployeeFunctionality;
+
+import java.io.FileInputStream;
+
+public class LogOut extends AddEmployee
+{
+
+	public void logOutFunctionality()
+	{
+		
+		FileInputStream proFile=FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,58 @@
+package com.javaExamples;
+
+public class conditional_Statements
+{
+
+	public void ifStatement()
+	{
+		int studentMarks=80;
+		
+		if(studentMarks==80)
+		{
+			System.out.println("The student marks is-"+studentMarks);
+		}
+		
+	}
+	
+	public void ifElseStatement()
+	{
+		int age=20;
+		if(age<=20)
+		{
+			System.out.println("The age is-"+age);
+			
+		}
+		else
+		{
+			System.out.println("the age is not matching");
+		}
+		
+		if(age>=20)
+		{
+			System.out.println("eligible for Driver's License");
+		}
+		else
+		{
+			System.out.println("not eligible for Driver's License");
+		}
+		
+		if(age>=20)
+		{
+			System.out.println("eligible to cast vote");
+		}
+		else
+		{
+			System.out.println("not eligible to cast vote");
+		}
+	}
+	
+	public static void main(String[] args) 
+	{
+		conditional_Statements cs=new conditional_Statements();
+		
+		cs.ifStatement();
+		cs.ifElseStatement();
+		
+	}
+	
+}

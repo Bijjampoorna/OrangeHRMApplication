@@ -1,0 +1,91 @@
+package com.javaExamples;
+
+public class conditional_Statements
+{
+
+	public void ifStatement()
+	{
+		int studentMarks=80;
+		
+		if(studentMarks==80)
+		{
+			System.out.println("The student marks is-"+studentMarks);
+		}
+		
+	}
+	
+	public void ifElseStatement()
+	{
+		int age=20;
+		if(age<=20)
+		{
+			System.out.println("The age is-"+age);
+			
+		}
+		else
+		{
+			System.out.println("the age is not matching");
+		}
+		
+		if(age>=20)
+		{
+			System.out.println("eligible for Driver's License");
+		}
+		else
+		{
+			System.out.println("not eligible for Driver's License");
+		}
+		
+		if(age>=20)
+		{
+			System.out.println("eligible to cast vote");
+		}
+		else
+		{
+			System.out.println("not eligible to cast vote");
+		}
+	}
+	
+	public void elseifStatement()
+	{
+		int stdmarks=92;
+		
+		if(stdmarks>90)
+		{
+			System.out.println("Student Grade is A");
+		}
+		if(stdmarks>=80&&stdmarks>=90)
+		{
+			System.out.println("Student Grade is B");
+		}
+		if(stdmarks>=70&&stdmarks>=80)
+		{
+			System.out.println("Student Grade is C");
+		}
+		if(stdmarks>=60&&stdmarks>=70)
+		{
+			System.out.println("Student Grade is D");
+		}
+		if(stdmarks>=50&&stdmarks>=60)
+		{
+			System.out.println("Student Grade is E");
+		}
+		else
+		{
+			System.out.println("Student is Failed");
+		}
+		
+		
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		conditional_Statements cs=new conditional_Statements();
+		
+		cs.ifStatement();
+		cs.ifElseStatement();
+		cs.elseifStatement();
+	}
+	
+}

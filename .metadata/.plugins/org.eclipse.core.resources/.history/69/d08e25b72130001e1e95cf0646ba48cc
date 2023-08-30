@@ -1,0 +1,42 @@
+package com.javaExamples;
+
+public class DataTypes_Variables
+{
+	int b=20;
+	static int empId=101;
+	public void mE1() 
+	{
+		int a=10;
+	System.out.println(a+"-is an Local Variable");
+	System.out.println(b+"-is an Instance Variable");	
+	System.out.println("me1 is executed");	
+	}
+	
+	public void mE2() 
+	{
+	System.out.println(b+"-is an Instance Variable");
+	System.out.println(empId+"is an Static Variable");
+	System.out.println("me2 is executed");	
+	}
+	
+	public void mE3()
+	{
+		System.out.println(empId+"is an Static Variable");
+		System.out.println("me3 is executed");
+	}
+	
+	
+	public static void main(String[] args) 
+	{
+	
+		Methods me=new Methods();
+		me.mE1();
+		me.mE3();
+		me.mE2();
+		
+		System.out.println("program is executed");
+		
+		
+	}
+	
+}

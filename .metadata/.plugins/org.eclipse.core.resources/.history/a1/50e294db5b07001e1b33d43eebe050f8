@@ -1,0 +1,224 @@
+package com.OrangeHRMLoginValidation;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class OrangeHRMAddEmployee
+{
+
+	WebDriver driver;
+	String ApplicationURlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+	@BeforeTest
+	public void setUp()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\DriverFiles\\chromedriver.exe");
+		
+		driver=new ChromeDriver();
+		
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get(ApplicationURlAddress);
+		
+		
+	}
+	@Test
+	public void OHRMAddEmployee() throws IOException
+	{
+		String propertiesFile="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\OHRMPropertyFile.properties";
+		
+		FileInputStream properties=new FileInputStream(propertiesFile);
+		
+		Properties pr=new Properties();
+		pr.load(properties);
+		
+		
+//VALIDATING LOGINPAGE	
+				String expectedLoginpageTitle="OrangeHRM";
+				
+				String actualLoginPageTitle=driver.getTitle();
+				
+				System.out.println("The LoginPage Title is-"+actualLoginPageTitle);
+				
+				if(actualLoginPageTitle.equals(expectedLoginpageTitle))
+				{
+					System.out.println("The Titles Are Matching-PASS");
+					
+				}
+				else
+				{
+					System.out.println("The Titles Are Not Matching-FAIL");
+				}
+				
+//LOGIN	USING DATA
+				By loginpanelElement=By.id(pr.getProperty("LoginPanelElement"));
+				WebElement loginPanelL=driver.findElement(loginpanelElement);
+				
+				By userNameElement=By.id(pr.getProperty("UserNameElement"));
+				WebElement userNameL=driver.findElement(userNameElement);
+				userNameL.sendKeys("Bijjampoorna");
+				
+				By passWordElement=By.id(pr.getProperty("PasswordElement"));
+				WebElement passWordL=driver.findElement(passWordElement);
+				passWordL.sendKeys("Bijjampoorna12$");
+				
+				By loginBTNElement=By.id(pr.getProperty("LoginBTNElement"));
+				WebElement LoginBTNL=driver.findElement(loginBTNElement);
+				LoginBTNL.click();
+				
+//HOMEPAGE VALIDATION	
+				
+				String expecetedHomePageText="Welcome Admin";
+				
+				By welcomeAdminElement=By.id(pr.getProperty("WelcomeAdminElement"));
+				WebElement welcomeAdminL=driver.findElement(welcomeAdminElement);
+				String actualHomePageText=welcomeAdminL.getText();
+				System.out.println("The Actual HomePage Title is -"+actualHomePageText);
+				
+				if(actualHomePageText.equals(expecetedHomePageText))
+				{
+					
+					System.out.println("The Titles Are Matching-PASS");
+				}
+				else
+				{
+					
+					System.out.println("The Titles Are Not Matching-FAIL");
+				}
+		
+//DOING MOUSEHOVER OPERATION ON PIM TO GO TO ADD EMPLOYEE PAGE		
+				
+		By pIMElement=By.id(pr.getProperty("PIMElement"));
+		WebElement pIML=driver.findElement(pIMElement);
+		
+		Actions mouseHover=new Actions(driver);
+		
+		mouseHover.moveToElement(pIML).build().perform();
+		
+		By addEmployeeElement=By.id(pr.getProperty("addEmployeeElement"));
+		WebElement addEmployeeL=driver.findElement(addEmployeeElement);
+		
+		addEmployeeL.click();				
+				
+//VALIDATING ADD EMPLOYEE PAGE
+		
+		String expectedAddEmployeeTitle="Add Employee";
+		
+		By addEmployeeTitleElement=By.linkText(pr.getProperty("addEmployeeTitle"));
+		WebElement addEmployeeTitleL=driver.findElement(addEmployeeTitleElement);
+		
+		String actualAddEmployeeTitle=addEmployeeTitleL.getText();
+		System.out.println("The Actual Title of Add Employee is -"+actualAddEmployeeTitle);
+		
+		if(actualAddEmployeeTitle.equals(expectedAddEmployeeTitle))
+		{
+			System.out.println("Landed At Add Employee Page-PASS");
+			
+		}
+		else
+		{
+			System.out.println("Fail To Land At Add Employee Page-FAIL");
+		}
+		
+//FINDING ELEMENTS OF FN,MN,LN OF ADD EMPLOYEE		
+		
+	//FIRST NAME
+		String expectedEmployeeFirstName="Bijjam";
+		By firstNameElement=By.id(pr.getProperty("firstNameElement"));
+		WebElement firstNameL=driver.findElement(firstNameElement);
+		firstNameL.sendKeys(expectedEmployeeFirstName);
+		
+	//MIDDLE NAME
+		String expectedEmployeeMiddleName="Poorna";
+		By middleNameElement=By.id(pr.getProperty("middleNameElement"));
+		WebElement middleNameL=driver.findElement(middleNameElement);
+		middleNameL.sendKeys(expectedEmployeeMiddleName);
+		
+	//LAST NAME
+		String expectedEmployeeLastName="Chandra";
+		By lastNameElement=By.id(pr.getProperty("lastNameElement"));
+		WebElement lastNameL=driver.findElement(lastNameElement);
+		lastNameL.sendKeys(expectedEmployeeLastName);
+		
+	//SAVE BUTTON	
+		
+		By saveBTNElement=By.id(pr.getProperty("saveBtnElement"));
+		WebElement saveBTNL=driver.findElement(saveBTNElement);
+		saveBTNL.click();
+		
+	
+		
+	//VALIDATING FN	
+		By employeeFirstNameElement=By.id(pr.getProperty("employeeFirstNameElement"));
+		WebElement employeeFirstNameL=driver.findElement(employeeFirstNameElement);
+		
+		String actualEmployeeFirstName=employeeFirstNameL.getAttribute("value");
+		System.out.println("The actual first name of employee is-"+actualEmployeeFirstName);
+		
+	//VALIDATING MN
+		
+		By employeeMiddleNameElement=By.id(pr.getProperty("employeeMiddleNameElement"));
+		WebElement employeeMiddleNameL=driver.findElement(employeeMiddleNameElement);
+		String actualEmployeeMiddleName=employeeMiddleNameL.getAttribute("value");
+		System.out.println("The actual middle name of employee is-"+actualEmployeeMiddleName);
+		
+	//VALIDATING LN
+		By employeeLastNameElement=By.id(pr.getProperty("employeeLastNameElement"));
+		WebElement employeeLastNameL=driver.findElement(employeeLastNameElement);
+		String actualEmployeeLastName=employeeLastNameL.getAttribute("value");
+		System.out.println("The actual last name of employee is-"+actualEmployeeLastName);
+		
+		
+//VALIDATING FN,MN,LN OF ADD EMPLOYEE
+		
+		if(actualEmployeeFirstName.equals(expectedEmployeeFirstName))
+		{
+			
+			System.out.println("First Names Are Matching-PASS");
+		}
+		else
+		{
+			System.out.println("First Names Are Not Matching-FAIL");
+		}
+		
+		if(actualEmployeeMiddleName.equals(expectedEmployeeMiddleName))
+		{
+			System.out.println("Middle Names Are Matching-PASS");
+			
+		}
+		else
+		{
+			System.out.println("Middle Names Are Not Matching-FAIL");
+			
+		}
+		
+		if(actualEmployeeLastName.equals(expectedEmployeeLastName))
+		{
+			System.out.println("Last Names Are Matching-PASS");
+		}
+		else
+		{
+			System.out.println("Last Names Are Not Matching-FAIL");
+		}
+		
+	}
+	@AfterTest
+	public void tearDown()
+	{
+		driver.close();
+		
+	}
+	
+}

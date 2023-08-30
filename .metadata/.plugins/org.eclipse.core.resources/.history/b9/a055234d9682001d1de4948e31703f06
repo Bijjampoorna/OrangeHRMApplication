@@ -1,0 +1,87 @@
+package com.OrangeHRMApplicationPages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import com.Utility.Log;
+
+public class OrangeHRMApplicationHomePage extends OrangeHRMApplicationLoginPage
+{
+
+	public OrangeHRMApplicationHomePage()
+	{
+		PageFactory.initElements(driver, this);
+		
+	}
+	
+	
+	
+	Actions act=new Actions(driver);
+	@FindBy(xpath="//img[@alt='OrangeHRM']")
+	WebElement oHRMHomePageImageL;
+	
+	@FindBy(id="welcome")
+	WebElement oHRMHomePageWelcomeAdminL;
+	
+	@FindBy(id="menu_pim_viewPimModule")
+	WebElement oHRMHomePage_PIM_L;
+	
+	@FindBy(id="menu_pim_addEmployee")
+	WebElement oHRMHomePageAddEmployeeL;
+	
+	@FindBy(id="menu_pim_viewEmployeeList")
+	WebElement oHRMHomePageEmployeeListL;
+	
+	@FindBy(id="menu_recruitment_viewRecruitmentModule")
+	WebElement oHRMHomePageRecruitmentL;
+	
+	@FindBy(id="menu_recruitment_viewCandidates")
+	WebElement oHRMHomePageViewCandidatesL;
+	
+	@FindBy(id="menu__Performance")
+	WebElement oHRMHomePagePerformanceL;
+	
+	@FindBy(id="menu_performance_ManageReviews")
+	WebElement oHRMHomePageManageReviewsL;
+	
+	@FindBy(id="menu_performance_searchPerformancReview")
+	WebElement oHRMPerformanceReviewL;
+	
+	
+	public void oHRMHomePageImageValidation()
+	{
+		boolean homeFlag=oHRMHomePageImageL.isDisplayed();
+		Assert.assertTrue(homeFlag, "Orange HRM HomePage Image Not Found");
+		
+		Log.info("Orange HRM HomePage Image Validation Sucessfull");
+		
+		
+	}
+	
+	public void oHRMHomePageTextValidation()
+	{
+		
+		String expectedOHRMApplicationHomePageText="Welcome Admin";
+		String actualOHRMApplicationHomePageText=oHRMHomePageWelcomeAdminL.getText();
+		
+		Assert.assertEquals(actualOHRMApplicationHomePageText, expectedOHRMApplicationHomePageText, "Orange HRM HomePage Text not Matching");
+		Log.info("Orange HRM HomePage text Validation Sucessfull");
+	}
+
+	public void oHRMAddemployeeFunctionality()
+	{
+		act.moveToElement(oHRMHomePage_PIM_L).build().perform();
+		
+		
+	}
+	
+	
+
+	
+
+
+}

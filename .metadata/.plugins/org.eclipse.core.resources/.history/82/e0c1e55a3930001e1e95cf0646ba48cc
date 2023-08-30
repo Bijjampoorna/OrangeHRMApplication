@@ -1,0 +1,43 @@
+package com.javaExamples;
+
+public class Loops 
+{
+
+	public void whileLoop()
+	{
+		int a=1;
+		while(a<=10)
+		{
+			System.out.println("java is very easy-"+a);
+			a++;
+		}
+	
+	}
+	
+	public void doWhileLoop()
+	{
+		int a=1;
+		do
+		{
+			System.out.println("Selenium is very easy"+"-"+a);
+			a++;
+		}
+		while(a<=10);		
+	}
+	
+	public void forLoop()
+	{
+		for(int a=1;a>=20;a=a+2)
+		{
+			System.out.println("The number is-"+a);
+		}
+	}
+	public static void main(String[] args) 
+	{
+	
+		Loops lo=new Loops();
+		lo.whileLoop();
+		lo.doWhileLoop();
+	}
+	
+}

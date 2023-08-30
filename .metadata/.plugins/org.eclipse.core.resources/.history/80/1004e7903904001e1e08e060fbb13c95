@@ -1,0 +1,44 @@
+package com.HomePage;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GoogleHomePage 
+{
+
+	public static void main(String[] args) {
+		
+		String expectedHomePageTitle="Google";
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\DriverFiles\\chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
+		String applicationAddress="https://www.google.com/";
+		
+		driver.get(applicationAddress);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
+		
+		
+		String actualHomePageTitle=driver.getTitle();
+		System.out.println("The Title of HomePage is-"+actualHomePageTitle);
+		if(actualHomePageTitle.equals(expectedHomePageTitle))
+		{
+			System.out.println("Titles Are Matching ");
+			
+		}
+		else
+		{
+			System.out.println("Titles are not matching");
+			
+		}
+		
+		
+		driver.close();
+		
+	}
+	
+	
+	
+}

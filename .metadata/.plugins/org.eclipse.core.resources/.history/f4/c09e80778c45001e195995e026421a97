@@ -1,0 +1,59 @@
+package com.Login;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+
+public class LoginPageValidation extends BaseTest
+{
+	@Test(priority=1)
+	public void loginpageValidation() throws IOException
+	{
+		//PROPERTY FILE
+		FileInputStream propertyFilePath=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(propertyFilePath);
+		
+		//EXCEL FILE
+		FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\src\\com\\ExcelWorkBooks\\LogInTestData.xlsx");
+		
+		XSSFWorkbook workbook=new XSSFWorkbook(excelFile);
+		
+		XSSFSheet sheet=workbook.getSheet("Sheet1");
+		
+		int rowCount=sheet.getLastRowNum();
+		System.out.println("The number of active rows in the sheet is-"+rowCount);
+		log.info("The number of active rows in the sheet is-"+rowCount);
+		
+			Row sheetRow=sheet.getRow(1);
+			
+			//GETTING DATA FROM EXCEL
+			Cell expected_LoginPageText=sheetRow.getCell(0);
+			String expectedLoginPageText=expected_LoginPageText.getStringCellValue();
+			System.out.println("The expected login page text is-"+expectedLoginPageText);
+		
+			By loginPageTextElement=By.id(pr.getProperty("LoginPanelElement"));
+			WebElement loginPageTextL=driver.findElement(loginPageTextElement);
+			
+			String actualLoginPageText=loginPageTextL.getText();
+			System.out.println("The actual login page text is:-"+actualLoginPageText);
+			
+			
+		
+			
+			
+			
+		
+	}
+}

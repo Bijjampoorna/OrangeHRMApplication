@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [OHRM_TestNG_FrameWork]">
+  <parameter name="browser" value="chrome"/>
+  <test name="LoginTest">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="com.Login.LogoutPageValidation"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="Add Employee">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.AddEmployee.LogoutValidation"/>
+    </classes>
+  </test> <!-- Add Employee -->
+  <test name="Add Employee(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.AddEmployee.LogoutValidation">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addEmployee"/>
+        </methods>
+      </class> <!-- com.AddEmployee.LogoutValidation -->
+      <class name="com.Login.LogoutPageValidation">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Login.LogoutPageValidation -->
+    </classes>
+  </test> <!-- Add Employee(failed) -->
+</suite> <!-- Failed suite [OHRM_TestNG_FrameWork] -->

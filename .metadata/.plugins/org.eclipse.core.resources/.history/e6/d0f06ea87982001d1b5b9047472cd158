@@ -1,0 +1,13 @@
+package com.OrangeHRMApplicationPages;
+
+import org.openqa.selenium.support.FindBy;
+
+public class OrangeHRMApplicationLoginPage 
+{
+
+	@FindBy();
+	
+	
+	
+	
+}

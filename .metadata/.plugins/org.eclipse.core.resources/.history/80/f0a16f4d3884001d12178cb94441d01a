@@ -1,0 +1,5 @@
+loginPanelElement=logInPanelHeading
+usernameElement=txtUsername
+passwordElement=txtPassword
+loginButtonElemnt=btnLogin
+logOutElement=Logout

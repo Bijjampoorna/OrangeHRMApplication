@@ -1,0 +1,21 @@
+package com.Utility;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+import com.BaseTest.BaseTest;
+import com.ExcelSetUp.Excel;
+
+public class Log4J 
+{
+ public static Logger log=Logger.getLogger(Log4J.class);
+
+public void log4JInsert()
+{
+	String logFile="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\Log4jFile\\OrangeHRMApplication_POM_LogFiles.properties";
+	PropertyConfigurator.configure(logFile);
+		
+}
+	
+	
+}

@@ -1,0 +1,11 @@
+package com.Utility;
+
+import org.apache.log4j.Logger;
+
+import com.Login.LoginPageValidation;
+
+public class Log 
+{
+
+	public static Logger log=Logger.getLogger(Log.class);
+}

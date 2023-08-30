@@ -1,0 +1,115 @@
+package com.MultipleLinks;
+
+
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class ApsrtcApplication 
+{
+	WebDriver driver;
+	String applicationUrlAddress="https://www.apsrtconline.in/oprs-web/guest/home.do?h=1";
+	
+	@BeforeTest
+	public void setUp()
+	{
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\DriverFiles\\chromedriver.exe");
+		
+		driver=new ChromeDriver();
+		
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
+		driver.get(applicationUrlAddress);
+		
+		
+	}
+	@Test
+	public void apsrtcLinksTest() throws IOException, InterruptedException
+	{
+		String expectedHomepageTitle="APSRTC Official Website for Online Bus Ticket Booking - APSRTConline.in";
+		String actualHomePageTitle=driver.getTitle();
+		System.out.println(actualHomePageTitle);
+		
+		if(actualHomePageTitle.equals(expectedHomepageTitle))
+		{
+			System.out.println("Landed At APSRTC HomePage-PASS");
+		}
+		else
+		{
+			System.out.println("Fail To Land At APSRTC HomePage-FAIL");
+		}
+		
+		//Class=menu-wrap
+		By apsrtcHeaderLinkElement=By.className("menu-wrap");
+		WebElement apsrtcHeaderLinkL=driver.findElement(apsrtcHeaderLinkElement);
+		
+		By apsrtcAllHeaderLinksElements=By.tagName("a");
+		List<WebElement>apsrtcAllHeaderLinksL=apsrtcHeaderLinkL.findElements(apsrtcAllHeaderLinksElements);
+		
+		int apsrtcHeaderLinkssize=apsrtcAllHeaderLinksL.size();
+		System.out.println("The Size of APSRTC HeaderLinks is-"+apsrtcHeaderLinkssize);
+		
+		for(int i=0;i<apsrtcHeaderLinkssize;i++)
+		{
+			
+			
+			String headerLinkNames=apsrtcAllHeaderLinksL.get(i).getText();
+			System.out.println("The Name Of The Link is-"+headerLinkNames);
+			
+			String expectedHeaderLinkTitle=driver.getTitle();
+			System.out.println("The Expected HeaderLink Title is-"+expectedHeaderLinkTitle);
+			
+			
+			String expectedHeaderLinkURL=driver.getCurrentUrl();
+			System.out.println("The Expected HeaderLink URL is-"+expectedHeaderLinkURL);
+			
+			apsrtcAllHeaderLinksL.get(i).click();
+			
+			String actualHeaderLinkTitle=driver.getTitle();
+			System.out.println("The Actual HeaderLink Title is-"+actualHeaderLinkTitle);
+			
+			String actualHeaderLinkURL=driver.getCurrentUrl();
+			System.out.println("The Actual HeaderLinj URL is-"+actualHeaderLinkURL);
+			Thread.sleep(2000);
+			
+			File apsrtcHeaderScreenShot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(apsrtcHeaderScreenShot, new File("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\ScreenShots\\"+i+"-"+headerLinkNames+".png"));
+			
+			driver.navigate().back();
+			
+			 apsrtcHeaderLinkElement=By.className("menu-wrap");
+			 apsrtcHeaderLinkL=driver.findElement(apsrtcHeaderLinkElement);
+			
+			apsrtcAllHeaderLinksElements=By.tagName("a");
+			apsrtcAllHeaderLinksL=apsrtcHeaderLinkL.findElements(apsrtcAllHeaderLinksElements);
+			
+			
+			
+		}
+		
+	
+		
+	}
+	
+	@AfterTest()
+	public void tearDown()
+	{
+		driver.close();
+		
+	}
+}

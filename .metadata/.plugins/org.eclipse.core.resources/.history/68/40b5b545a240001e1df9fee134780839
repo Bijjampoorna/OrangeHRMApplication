@@ -1,0 +1,48 @@
+package com.WebdriverExamples;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Tc_014_DropDownValues 
+{
+	WebDriver driver;
+	String urlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+	public void setUp()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\selTraining\\DriverFiles\\chromedriver.exe");
+		driver=new ChromeDriver();
+		
+		driver.get(urlAddress);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	}
+	
+	public void dropDown() throws InterruptedException
+	{
+		By userNameElement=By.id("txtUsername");
+		WebElement userNameL=driver.findElement(userNameElement);
+		userNameL.sendKeys("Bijjampoorna");
+		
+		
+		By passWordElement=By.id("txtPassword");
+		WebElement passwordL=driver.findElement(passWordElement);
+		passwordL.sendKeys("Bijjampoorna12$");
+		
+		By loginBtnElement=By.id("btnLogin");
+		WebElement loginBtnL=driver.findElement(loginBtnElement);
+		loginBtnL.click();
+		
+		By pimElement=By.id("menu_pim_viewPimModule");
+		WebElement pimL=driver.findElement(pimElement);
+		
+		Actions act =new Actions(driver);
+		act.moveToElement(pimL).build().perform();
+		
+	}
+
+}

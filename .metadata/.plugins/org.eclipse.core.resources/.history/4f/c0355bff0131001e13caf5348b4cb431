@@ -1,0 +1,18 @@
+package com.javaExamples;
+
+import java.util.Scanner;
+
+public class KeyboardInput
+{
+
+	public void scannerEx()
+	{
+		int a,b,c;
+		System.out.println("Enter a,b Values");
+		Scanner sc=new Scanner(System.in);//System.in is a predefined function to accept values from keyboard
+		a=sc.nextInt();//nextint() is an predefined function which only accepts integer values
+		b=sc.nextInt();
+		c=a+b;
+		System.out.println("The value of c is-"+c);
+	}
+}

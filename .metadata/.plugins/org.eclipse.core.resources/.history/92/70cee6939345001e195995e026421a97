@@ -1,0 +1,81 @@
+package com.Login;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class LoginPageFunctionality extends LoginPageValidation
+{
+	public void loginFunctionality() throws IOException
+	{
+		
+		//PROPERTY FILE
+		FileInputStream propertyFilePath=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(propertyFilePath);
+		
+		//EXCEL FILE
+		FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\src\\com\\ExcelWorkBooks\\LogInTestData.xlsx");
+		
+		XSSFWorkbook workbook=new XSSFWorkbook(excelFile);		
+		XSSFSheet sheet=workbook.getSheet("Sheet1");
+		
+		int rowCount=sheet.getLastRowNum();
+		//System.out.println("The number of active rows in the sheet is-"+rowCount);
+		log.info("The number of active rows in the sheet is-"+rowCount);
+	try
+	{
+		for(int row=1;row<=rowCount;row++)
+		{
+			Row sheetRow=sheet.getRow(row);
+			
+			Cell userNameData=sheetRow.getCell(06);
+			String userName=userNameData.getStringCellValue();
+			log.info("The UserName is-"+userName);
+			By userNameElement=By.id(pr.getProperty("UserNameElement"));
+			WebElement userNameL=driver.findElement(userNameElement);
+			userNameL.sendKeys(userName);
+			
+			Cell passwordData=sheetRow.getCell(07);
+			String password=passwordData.getStringCellValue();
+			log.info("The password is-"+password);
+			By passwordElement=By.id(pr.getProperty("PasswordElement"));
+			WebElement passwordL=driver.findElement(passwordElement);
+			passwordL.sendKeys(password);
+			
+			By loginBtnElement=By.id(pr.getProperty("LoginBTNElement"));
+			WebElement loginBtnL=driver.findElement(loginBtnElement);
+			loginBtnL.click();
+			
+			Cell expected_HomePageText=sheetRow.getCell(08)
+			String expectedHomePageText=expected_HomePageText.getStringCellValue();
+			System.out.println("The expected Home Page Text is-"+expectedHomePageText);
+			
+			
+			By welcomeAdminElement=By.id(pr.getProperty("WelcomeAdminElement"));
+			WebElement welcomeAdminL=driver.findElement(welcomeAdminElement);
+			
+			
+			
+
+		}
+		
+		}
+	catch (Exception e) 
+	{
+		
+			
+	}
+	
+	
+	}
+
+}

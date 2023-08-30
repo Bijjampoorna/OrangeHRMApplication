@@ -1,0 +1,172 @@
+package com.OrangeHRMApplicationPages;
+
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import com.Utility.Log;
+
+public class OrangeHRMApplicationHomePage extends OrangeHRMApplicationLoginPage
+{
+
+	public OrangeHRMApplicationHomePage()
+	{
+		PageFactory.initElements(driver, this);
+		
+	}
+	 @FindBy(id="txtUsername")
+	   WebElement userNameL;
+	   
+	   @FindBy(id="txtPassword")
+	   WebElement passwordL;
+	   
+	   @FindBy(id="btnLogin")
+	   WebElement loginButtonL;
+	
+	
+	Actions act=new Actions(driver);
+	@FindBy(xpath="//img[@alt='OrangeHRM']")
+	WebElement oHRMHomePageImageL;
+	
+	@FindBy(id="welcome")
+	WebElement oHRMHomePageWelcomeAdminL;
+	
+	@FindBy(id="menu_pim_viewPimModule")
+	WebElement oHRMHomePage_PIM_L;
+	
+	@FindBy(id="menu_pim_addEmployee")
+	WebElement oHRMHomePageAddEmployeeL;
+	
+	@FindBy(id="menu_pim_viewEmployeeList")
+	WebElement oHRMHomePageEmployeeListL;
+	
+	@FindBy(className="head")
+	WebElement oHRMEmployeeInfoTextL;
+	
+	@FindBy(id="menu_recruitment_viewRecruitmentModule")
+	WebElement oHRMHomePageRecruitmentL;
+	
+	@FindBy(id="menu_recruitment_viewCandidates")
+	WebElement oHRMHomePageViewCandidatesL;
+	
+	@FindBy(id="menu__Performance")
+	WebElement oHRMHomePagePerformanceL;
+	
+	@FindBy(id="menu_performance_ManageReviews")
+	WebElement oHRMHomePageManageReviewsL;
+	
+	@FindBy(id="menu_performance_searchPerformancReview")
+	WebElement oHRMPerformanceReviewL;
+	
+	@FindBy(className="head")
+	WebElement oHRMPerformanceTextL;
+	
+
+	
+	public void oHRMHomePageImageValidation(String userName,String password) 
+	{
+		userNameL.sendKeys(userName);
+		passwordL.sendKeys(password);
+	    loginButtonL.click();
+		
+		boolean homeFlag=oHRMHomePageImageL.isDisplayed();
+		Assert.assertTrue(homeFlag, "Orange HRM HomePage Image Not Found");
+		
+		Log.info("Orange HRM HomePage Image Validation Sucessfull");
+		
+		
+	}
+	
+	public void oHRMHomePageTextValidation(String userName,String password)
+	{
+		userNameL.sendKeys(userName);
+		passwordL.sendKeys(password);
+	    loginButtonL.click();
+		
+		String expectedOHRMApplicationHomePageText="Welcome Admin";
+		String actualOHRMApplicationHomePageText=oHRMHomePageWelcomeAdminL.getText();
+		
+		Assert.assertEquals(actualOHRMApplicationHomePageText, expectedOHRMApplicationHomePageText, "Orange HRM HomePage Text not Matching");
+		Log.info("Orange HRM HomePage text Validation Sucessfull");
+	}
+
+	public void oHRMAddemployeeFunctionality(String userName,String password) throws InterruptedException
+	{
+		userNameL.sendKeys(userName);
+		passwordL.sendKeys(password);
+	    loginButtonL.click();
+		
+		act.moveToElement(oHRMHomePage_PIM_L).build().perform();
+		Thread.sleep(1500);
+		oHRMHomePageAddEmployeeL.click();
+		Thread.sleep(1500);
+		String expectedOHRMApplicationAddEmployeeText="Add Employee";
+		String actualOHRMApplicationAddEmployeeText=oHRMHomePageAddEmployeeL.getText();
+		System.out.println("The actual EmployeeList Name is:- "+actualOHRMApplicationAddEmployeeText);
+		Assert.assertEquals(actualOHRMApplicationAddEmployeeText, expectedOHRMApplicationAddEmployeeText, "Add Employee Text Not Matching");
+		Log.info("Orange HRM Add Employee Functionality sucessfull");
+		
+	}
+	
+	public void oHRMEmployeeListFunctionality(String userName,String password) throws InterruptedException
+	{
+		userNameL.sendKeys(userName);
+		passwordL.sendKeys(password);
+	    loginButtonL.click();
+		
+		act.moveToElement(oHRMHomePage_PIM_L).build().perform();
+		Thread.sleep(1500);
+		oHRMHomePageEmployeeListL.click();
+		Thread.sleep(1500);
+		String expectedoHRMApplicationEmployeeListText="Employee Information";
+		String actualoHRMApplicationEmployeeListText=oHRMEmployeeInfoTextL.getText();
+		System.out.println("The actual EmployeeList Name is:- "+actualoHRMApplicationEmployeeListText);
+		Assert.assertEquals(actualoHRMApplicationEmployeeListText, expectedoHRMApplicationEmployeeListText, "Employee List Text Not Matching");
+		
+		Log.info("Orange HRM EmployeeList Functionality sucessfull");
+	}
+
+	public void oHRMCandidateFunctionality(String userName,String password) throws InterruptedException
+	{
+		userNameL.sendKeys(userName);
+		passwordL.sendKeys(password);
+	    loginButtonL.click();
+		
+		act.moveToElement(oHRMHomePageRecruitmentL).build().perform();
+		Thread.sleep(1500);
+		oHRMHomePageViewCandidatesL.click();
+		Thread.sleep(1500);
+		String expectedOHRMApplicationCandidateText="Candidates";
+		String actualOHRMApplicationCandidateText=oHRMHomePageViewCandidatesL.getText();
+		System.out.println("The actual Candidate Name is:- "+actualOHRMApplicationCandidateText);
+		Assert.assertEquals(actualOHRMApplicationCandidateText, expectedOHRMApplicationCandidateText, "Candidates Text Not Matching");
+		Log.info("Orange HRM Candidate Functionality sucessfull");
+		
+	}
+
+	public void oHRMPerformanceFunctionality(String userName,String password) throws InterruptedException
+	{
+		userNameL.sendKeys(userName);
+		passwordL.sendKeys(password);
+	    loginButtonL.click();
+		
+		act.moveToElement(oHRMHomePagePerformanceL).build().perform();
+		Thread.sleep(1500);
+		act.moveToElement(oHRMHomePageManageReviewsL).build().perform();
+		Thread.sleep(1500);
+		oHRMPerformanceReviewL.click();
+		Thread.sleep(1500);
+		String expectedOHRMApplicationPerformanceText="Search Performance Reviews";
+		String actualOHRMApplicationPerformanceText=oHRMPerformanceTextL.getText();
+		System.out.println("The actual Performance Text Name is:- "+actualOHRMApplicationPerformanceText);
+		Assert.assertEquals(actualOHRMApplicationPerformanceText, expectedOHRMApplicationPerformanceText, "Performance Review Text Not Matching");
+		Log.info("Orange HRM Performance Review Functionality sucessfull");
+		
+	}
+
+}

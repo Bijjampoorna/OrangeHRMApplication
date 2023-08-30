@@ -1,0 +1,76 @@
+package com.LoginFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class LoginFunctionality extends LoginPageValidation
+{
+
+	public void LoginFunctionalityOfOrangeHRM() throws IOException
+	{
+//PROPERTIES FILE	
+				FileInputStream prFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+				Properties pr=new Properties();
+				pr.load(prFile);
+		
+		
+//EXCEL FILE		
+		String loginDataPath="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\ExcelWorkBooks\\LogInTestData.xlsx";
+		FileInputStream loginData=new FileInputStream(loginDataPath);
+		
+		 //Identifying the Workbook
+		 XSSFWorkbook workbook=new XSSFWorkbook(loginDataPath);
+		 
+		 //IDentifying the Sheet in the WorkBook
+		 XSSFSheet sheet=workbook.getSheet("Sheet1");
+		 
+		
+		 //Identifying the Active rows in the Sheet
+			int rowsCount=sheet.getLastRowNum();
+			System.out.println("The Active Rows In The Sheet Are:-"+rowsCount);
+			
+			for(int row=1;row<=rowsCount;row++)
+			{
+				
+				//GETTING THE ACTIVE ROWS FROM SHEET
+				Row sheetrow=sheet.getRow(row);
+				
+//VALIDATING LOGIN FUNCTIONALITY
+				
+				
+				By userNameElement=By.id(pr.getProperty("UserNameElement"));
+				WebElement userNameL=driver.findElement(userNameElement);
+				
+				
+				
+				By passWordElement=By.id(pr.getProperty("PasswordElement"));
+				WebElement passWordL=driver.findElement(passWordElement);
+				
+				/*
+				By loginBTNElement=By.id(pr.getProperty("LoginBTNElement"));
+				WebElement LoginBTNL=driver.findElement(loginBTNElement);
+				LoginBTNL.click();
+				*/
+				
+				
+				
+				
+				
+				
+			}
+		
+		
+		
+	}
+	
+	
+	
+}

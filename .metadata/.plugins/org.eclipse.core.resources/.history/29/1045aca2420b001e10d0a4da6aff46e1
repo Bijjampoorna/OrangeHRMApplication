@@ -1,0 +1,48 @@
+package com.LoginFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class LoginFunctionality extends LoginPageValidation
+{
+
+	public void LoginFunctionalityOfOrangeHRM() throws IOException
+	{
+		
+		
+		//Getting The Data from The ExcelWorkbook
+		 //Identifying The File
+		 String excelPath="C:\\Users\\Bijjam Poorna\\OneDrive\\Desktop\\Automation Testing\\OHRMApplication\\src\\com\\OHRMExcelWorkBooks\\LogInTest.xlsx";
+		 FileInputStream testData=new FileInputStream(excelPath);
+		
+		 //Identifying the Workbook
+		 XSSFWorkbook workbook=new XSSFWorkbook(testData);
+		 
+		 //IDentifying the Sheet in the WorkBook
+		 XSSFSheet sheet=workbook.getSheet("Sheet1");
+		 
+		
+		 //Identifying the Active rows in the Sheet
+			int rowsCount=sheet.getLastRowNum();
+			System.out.println("The Active Rows In The Sheet Are:-"+rowsCount);
+			
+			for(int row=1;row<=rowsCount;row++)
+			{
+				
+				
+				
+				
+				
+			}
+		
+		
+		
+	}
+	
+	
+	
+}

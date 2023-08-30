@@ -1,0 +1,50 @@
+package com.AddEmployeeFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import com.BaseTest.BaseTest;
+
+public class Login extends BaseTest
+{
+
+	Logger log=Logger.getLogger(Login.class);
+	
+   public void LoginPageValidation() throws IOException
+   {
+	   
+//LOG4J FILE
+	  FileInputStream logFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\Log4jFile\\OrangeHRMApplication_POM_LogFiles.properties");
+	   PropertyConfigurator.configure(logFile);
+	   
+	   
+//PROPERTYFILE	   
+	   FileInputStream proFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+	   Properties pr=new Properties();
+	   pr.load(proFile);
+	   
+//EXCELFILE
+	   FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\src\\com\\ExcelWorkBooks\\AddEmployeeTestData.xlsx");
+	   
+	   XSSFWorkbook workbook=new XSSFWorkbook(excelFile);
+	   
+	   XSSFSheet sheet=workbook.getSheet("Sheet1");
+	   
+//GETTING ACTIVE NO. OF ROWS IN THE SHEET
+	   
+	   int rowCount=sheet.getLastRowNum();
+	   System.out.println("The no. of active rows in the sheet is-"+rowCount);
+	   
+	   
+	   
+   }
+	
+	
+}

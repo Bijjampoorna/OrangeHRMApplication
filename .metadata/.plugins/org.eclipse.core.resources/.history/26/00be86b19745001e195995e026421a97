@@ -1,0 +1,11 @@
+package com.Login;
+
+public class LogoutPageValidation 
+{
+	@Test(priority=3)
+	public void logoutValidation()
+	{
+		
+	}
+	
+}

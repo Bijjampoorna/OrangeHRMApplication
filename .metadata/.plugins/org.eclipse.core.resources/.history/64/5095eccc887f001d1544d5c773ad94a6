@@ -1,0 +1,24 @@
+package com.RadioButtonClick;
+
+import org.testng.annotations.Test;
+
+public class RadioButtonTesting {
+	
+	@Test
+	public void RadioButton()
+	{
+		
+		
+		
+	//<input type="radio" name="group1" value="Milk">
+	//<input type="radio" name="group1" value="Butter" checked="">
+	//<input type="radio" name="group2" value="Water">
+	//<input type="radio" name="group2" value="Wine" checked="">
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.LoginFunctionality;
+
+import com.BaseTest.BaseTest;
+
+public class LoginPageValidation extends BaseTest 
+{
+
+	public void loginPage()
+	{
+		
+		
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,43 @@
+package com.Login;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+import com.Utility.PropertyFile;
+
+public class LoginPageValidation extends BaseTest
+{
+	@Test(priority=1)
+	public void loginpageValidation() throws IOException
+	{
+		
+		
+		FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\src\\com\\ExcelWorkBooks\\LogInTestData.xlsx");
+		
+		XSSFWorkbook workbook=new XSSFWorkbook(excelFile);
+		
+		XSSFSheet sheet=workbook.getSheet("Sheet1");
+		
+		int rowCount=sheet.getLastRowNum();
+		System.out.println("The number of active rows in the sheet is-"+rowCount);
+		log.info("The number of active rows in the sheet is-"+rowCount);
+		
+		for(int i=1;i<=rowCount;i++)
+		{
+			
+			XSSFRow sheetRow=sheet.getRow(i);
+			
+			By loginPageTextElement=By.id()
+			
+			
+		}
+	}
+}

@@ -1,0 +1,462 @@
+2023-08-28 16:01:18,934 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:01:19,026 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 16:10:23,827 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:10:23,916 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 16:18:38,358 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:18:38,485 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 16:19:20,901 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:19:20,998 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 16:19:21,053 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 16:56:29,064 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:56:29,108 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 16:56:29,120 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 16:56:29,268 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:56:29,269 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 16:56:29,498 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 16:56:31,202 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 16:58:20,301 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:58:20,351 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 16:58:20,365 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 16:58:20,546 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:58:20,547 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 16:58:20,747 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 16:58:55,494 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:58:55,535 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 16:58:55,543 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 16:58:55,642 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 16:58:55,643 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 16:58:55,769 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 17:00:10,922 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:00:10,967 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:00:10,977 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 17:00:11,078 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:00:11,079 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 17:00:11,245 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 17:00:13,106 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 17:00:15,327 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-28 17:00:15,440 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-28 17:03:00,809 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:03:00,869 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:03:00,881 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 17:03:00,982 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:03:00,984 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 17:03:01,146 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 17:03:02,620 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:03:04,788 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-28 17:03:04,966 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-28 17:08:11,760 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:08:11,824 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:08:11,833 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 17:08:11,956 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:08:11,957 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 17:08:11,957 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 17:08:13,963 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:08:16,164 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-28 17:08:16,165 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-28 17:08:17,284 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-28 17:08:17,286 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-28 17:12:55,742 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:12:55,836 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:12:55,852 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 17:12:55,993 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:12:55,994 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 17:12:55,995 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 17:12:58,085 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:13:00,465 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-28 17:13:00,467 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-28 17:13:01,535 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-28 17:13:01,536 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-28 17:13:02,510 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:43:06,128 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:43:06,177 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:43:06,188 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-28 17:43:06,267 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-28 17:43:06,268 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 17:43:06,268 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 17:43:07,269 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-28 17:43:09,225 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-28 17:43:09,227 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-28 17:43:09,539 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-28 17:43:09,710 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-28 17:43:09,710 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-28 17:43:10,103 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-28 18:33:24,015 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-28 18:33:24,070 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-28 18:33:24,074 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-28 18:33:24,146 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-28 18:33:24,147 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-28 18:33:24,147 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-28 18:33:25,195 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-28 18:33:25,235 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-28 18:33:25,833 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 16:21:27,766 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:21:27,866 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:21:27,882 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:21:28,057 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:21:28,058 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 16:21:28,059 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 16:21:29,961 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 16:21:30,029 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:21:30,766 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 16:22:24,782 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:22:24,855 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:22:24,868 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:22:25,021 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:22:25,021 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 16:22:25,022 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 16:22:26,967 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 16:22:27,034 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:22:27,850 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 16:25:21,006 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:25:21,064 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:25:21,075 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:25:21,185 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:25:21,186 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 16:25:21,187 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 16:25:22,817 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 16:25:22,880 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:25:23,592 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 16:30:56,297 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:30:56,358 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:30:56,368 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:30:56,474 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:30:56,475 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 16:30:56,475 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 16:30:58,100 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 16:30:58,161 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:30:58,861 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 16:32:14,542 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:32:14,637 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:32:14,653 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:32:14,805 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:32:14,806 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 16:32:14,807 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 16:32:16,533 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 16:32:16,597 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:32:17,379 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 16:33:03,602 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:33:03,649 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:33:03,658 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:33:03,766 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:33:03,767 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 16:33:03,767 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 16:33:05,969 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 16:33:06,030 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:33:06,813 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 16:39:39,946 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:39:40,000 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:39:40,008 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 16:39:40,138 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:39:40,139 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 16:39:40,139 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 16:39:41,556 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 16:39:41,617 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 16:39:42,531 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 17:05:50,207 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:05:50,265 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:05:50,270 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:05:50,409 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:05:50,410 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 17:05:50,410 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 17:05:51,834 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 17:05:51,972 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:05:52,850 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 17:05:54,378 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:05:54,422 - com.AddEmployee.LoginPageValidation -INFO - First Name is not Matching
+2023-08-29 17:05:54,455 - com.AddEmployee.LoginPageValidation -INFO - Middle Name not is Matching
+2023-08-29 17:05:54,490 - com.AddEmployee.LoginPageValidation -INFO - Last Name is not Matching
+2023-08-29 17:10:50,550 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:10:50,599 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:10:50,603 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:10:50,732 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:10:50,734 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 17:10:50,734 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 17:10:52,434 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 17:10:52,583 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:10:53,470 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 17:10:55,397 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:10:55,425 - com.AddEmployee.LoginPageValidation -INFO - First Name is not Matching
+2023-08-29 17:10:55,455 - com.AddEmployee.LoginPageValidation -INFO - Middle Name not is Matching
+2023-08-29 17:10:55,483 - com.AddEmployee.LoginPageValidation -INFO - Last Name is not Matching
+2023-08-29 17:13:40,262 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:13:40,357 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:13:40,374 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:13:40,567 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:13:40,568 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 17:13:40,569 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 17:13:42,290 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 17:13:42,435 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:13:43,258 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 17:13:44,852 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:13:44,913 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 17:13:44,959 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:13:45,008 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 17:13:47,808 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:13:47,849 - com.AddEmployee.LoginPageValidation -INFO - First Name is not Matching
+2023-08-29 17:13:47,880 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:13:47,932 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 17:13:52,234 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:13:52,265 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 17:13:52,297 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:13:52,343 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 17:13:54,657 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:13:54,715 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 17:13:54,762 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:13:54,827 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 17:16:15,276 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:16:15,349 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:16:15,364 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 17:16:15,507 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:16:15,508 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 17:16:15,509 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 17:16:17,399 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 17:16:17,532 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 17:16:18,446 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 17:16:20,458 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:16:20,503 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 17:16:20,532 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:16:20,564 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 17:16:23,044 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:16:23,085 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 17:16:23,116 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:16:23,148 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 17:16:25,417 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:16:25,453 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 17:16:25,487 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:16:25,536 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 17:16:27,819 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 17:16:27,847 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 17:16:27,880 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 17:16:27,909 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:03:13,241 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:03:13,300 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:03:13,317 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:03:13,487 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:03:13,488 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:03:13,488 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:03:17,109 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 19:03:17,172 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:03:18,444 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 19:03:20,761 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:03:20,804 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:03:20,851 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:03:20,881 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:03:22,926 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:03:22,956 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:03:22,987 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:03:23,019 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:03:25,700 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:03:25,735 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:03:25,764 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:03:25,799 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:03:28,143 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:03:28,172 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:03:28,203 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:03:28,256 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:03:31,131 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:12:11,340 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:12:11,477 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:12:11,486 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-29 19:12:11,603 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:12:11,604 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:12:11,604 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:12:13,290 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:12:15,676 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-29 19:12:15,678 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-29 19:12:16,353 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:12:16,650 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-29 19:12:16,651 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-29 19:12:17,452 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:12:17,786 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:14:30,641 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:14:30,710 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:14:30,719 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-29 19:14:30,874 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:14:30,875 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:14:30,875 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:14:32,761 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:14:34,973 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-29 19:14:34,974 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-29 19:14:35,411 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:14:35,705 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-29 19:14:35,705 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-29 19:14:36,276 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:14:36,613 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:14:39,375 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:14:39,423 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:14:39,433 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:14:39,480 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:14:39,480 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:14:39,481 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:14:40,949 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 19:14:40,999 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:14:41,746 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 19:14:46,687 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:14:46,742 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:14:46,791 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:14:46,833 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:14:49,324 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:14:49,381 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:14:49,430 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:14:49,474 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:14:51,591 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:14:51,630 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:14:51,660 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:14:51,691 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:14:54,356 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:14:54,388 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:14:54,416 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:14:54,452 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:14:57,585 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:21:03,150 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:21:03,264 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:21:03,282 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-29 19:21:03,469 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:21:03,470 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:21:03,471 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:21:05,482 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:21:07,827 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-29 19:21:07,828 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-29 19:21:08,544 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:21:08,818 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-29 19:21:08,819 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-29 19:21:09,315 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:21:09,608 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:21:12,390 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:21:12,434 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:21:12,441 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:21:12,490 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:21:12,491 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:21:12,491 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:21:14,296 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 19:21:14,346 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:21:15,095 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 19:21:16,852 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:21:16,919 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:21:16,972 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:21:17,037 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:21:19,527 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:21:19,556 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:21:19,588 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:21:19,635 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:21:22,122 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:21:22,165 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:21:22,212 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:21:22,243 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:21:25,140 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:21:25,198 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:21:25,246 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:21:25,300 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:21:28,496 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:25:40,623 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:25:40,676 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:25:40,688 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-29 19:25:40,786 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:25:40,786 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:25:40,787 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:25:42,245 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:25:44,464 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-29 19:25:44,465 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-29 19:25:45,032 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:25:45,344 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-29 19:25:45,344 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-29 19:25:46,151 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:25:46,445 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:25:48,992 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:25:49,039 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:25:49,050 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:25:49,099 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:25:49,100 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:25:49,100 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:25:50,837 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 19:25:50,887 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:25:58,645 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:31:06,028 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:31:06,094 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:31:06,110 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-29 19:31:06,292 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:31:06,293 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:31:06,294 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:31:08,307 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:31:10,488 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-29 19:31:10,489 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-29 19:31:11,201 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:31:11,525 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-29 19:31:11,525 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-29 19:31:12,208 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:31:12,488 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:31:15,082 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:31:15,139 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:31:15,152 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:31:15,200 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:31:15,200 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:31:15,200 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:31:16,497 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 19:31:16,547 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:31:17,418 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 19:31:19,498 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:31:19,552 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:31:19,588 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:31:19,616 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:31:21,853 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:31:21,895 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:31:21,928 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:31:21,958 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:31:26,292 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:31:26,321 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:31:26,354 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:31:26,381 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:31:28,773 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:31:28,798 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:31:28,830 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:31:28,863 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:31:31,992 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:32:00,746 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:32:00,791 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:32:00,803 - com.Login.LoginPageValidation -INFO - Text is not Matching
+2023-08-29 19:32:00,913 - com.Login.LoginPageValidation -INFO - The number of active rows in the sheet is-3
+2023-08-29 19:32:00,914 - com.Login.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:32:00,914 - com.Login.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:32:02,667 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:32:04,771 - com.Login.LoginPageValidation -INFO - The UserName is-MaryWinstead
+2023-08-29 19:32:04,772 - com.Login.LoginPageValidation -INFO - The password is-mary123
+2023-08-29 19:32:05,235 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:32:05,536 - com.Login.LoginPageValidation -INFO - The UserName is-zoey123
+2023-08-29 19:32:05,536 - com.Login.LoginPageValidation -INFO - The password is-zoey123$
+2023-08-29 19:32:06,118 - com.Login.LoginPageValidation -INFO - Failed to land At Home Page
+2023-08-29 19:32:06,406 - com.Login.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:32:08,941 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:32:09,001 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:32:09,011 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:32:09,060 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:32:09,061 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:32:09,061 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:32:10,563 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 19:32:10,616 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:32:18,294 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:33:28,421 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:33:28,473 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:33:28,485 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching
+2023-08-29 19:33:28,666 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:33:28,667 - com.AddEmployee.LoginPageValidation -INFO - The UserName is-Bijjampoorna
+2023-08-29 19:33:28,667 - com.AddEmployee.LoginPageValidation -INFO - The password is-Bijjampoorna12$
+2023-08-29 19:33:30,206 - com.AddEmployee.LoginPageValidation -INFO - Landed at HomePage
+2023-08-29 19:33:30,266 - com.AddEmployee.LoginPageValidation -INFO - The number of active rows in the sheet is-4
+2023-08-29 19:33:31,019 - com.AddEmployee.LoginPageValidation -INFO - Landed at Add Employee Page
+2023-08-29 19:33:32,877 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:33:32,932 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:33:32,977 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:33:33,028 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:33:35,850 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:33:35,902 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:33:35,950 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:33:35,997 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:33:38,695 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:33:38,726 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:33:38,758 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:33:38,789 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:33:41,602 - com.AddEmployee.LoginPageValidation -INFO - Landed at Personal Details Page
+2023-08-29 19:33:41,643 - com.AddEmployee.LoginPageValidation -INFO - First Name is Matching
+2023-08-29 19:33:41,679 - com.AddEmployee.LoginPageValidation -INFO - Middle Name is Matching
+2023-08-29 19:33:41,738 - com.AddEmployee.LoginPageValidation -INFO - Last Name is Matching
+2023-08-29 19:33:45,102 - com.AddEmployee.LoginPageValidation -INFO - Text is Matching

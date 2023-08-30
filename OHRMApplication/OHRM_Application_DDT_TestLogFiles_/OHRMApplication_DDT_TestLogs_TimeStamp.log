@@ -1,0 +1,100 @@
+2022-12-25 15:51:24,118 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:24,128 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2022-12-25 15:51:24,170 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:24,183 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2022-12-25 15:51:24,217 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:24,228 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2022-12-25 15:51:24,267 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:24,277 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2022-12-25 15:51:24,312 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:24,324 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2022-12-25 15:51:27,721 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected HomePage Title:- Admin
+2022-12-25 15:51:27,765 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Actual HomePage Title:- Welcome Admin
+2022-12-25 15:51:27,765 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - HomePage Titles Are Matching-PASS
+2022-12-25 15:51:40,520 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2022-12-25 15:51:40,536 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:40,549 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2022-12-25 15:51:40,562 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:40,580 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2022-12-25 15:51:40,592 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:40,612 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2022-12-25 15:51:40,623 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:40,645 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2022-12-25 15:51:40,662 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:43,431 - com.AddEmployee.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2022-12-25 15:51:43,441 - com.AddEmployee.VallidatingLoginPage -INFO - The Actual Name Of Login Test is :- LOGIN Panel
+2022-12-25 15:51:43,441 - com.AddEmployee.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:51:43,447 - com.AddEmployee.VallidatingLoginPage -INFO - The Expected loginPage Title is:- OrangeHRM
+2022-12-25 15:51:43,447 - com.AddEmployee.VallidatingLoginPage -INFO - The Actual Login Page Title:- OrangeHRM
+2022-12-25 15:51:43,447 - com.AddEmployee.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2022-12-25 15:51:43,503 - com.AddEmployee.VallidatingLoginPage -INFO - The UserName is :- Bijjampoorna
+2022-12-25 15:51:43,504 - com.AddEmployee.VallidatingLoginPage -INFO - The PassWord is :- Bijjampoorna12$
+2022-12-25 15:51:49,662 - com.AddEmployee.VallidatingLoginPage -INFO - The Expected HomePage Title:- Admin
+2022-12-25 15:51:49,696 - com.AddEmployee.VallidatingLoginPage -INFO - The Actual HomePage Title:- Welcome Admin
+2022-12-25 15:51:49,697 - com.AddEmployee.VallidatingLoginPage -INFO - HomePage Titles Are Matching-PASS
+2022-12-25 15:51:50,346 - com.AddEmployee.VallidatingLoginPage -INFO - The Expected Text of Add Employee Page Is :- Add Employee
+2022-12-25 15:51:50,393 - com.AddEmployee.VallidatingLoginPage -INFO - The Actual Text of Add Employee Page Is:- Add Employee
+2022-12-25 15:51:50,393 - com.AddEmployee.VallidatingLoginPage -INFO - At Add employee Page-PASS
+2022-12-25 15:51:51,843 - com.AddEmployee.VallidatingLoginPage -INFO - Both Id's Are Matching-PASS
+2022-12-25 15:51:51,881 - com.AddEmployee.VallidatingLoginPage -INFO - Titles are Matching-PASS
+2022-12-25 15:51:51,910 - com.AddEmployee.VallidatingLoginPage -INFO - First Names Are Matching-PASS
+2022-12-25 15:51:51,940 - com.AddEmployee.VallidatingLoginPage -INFO - Middle Names Are Matching-PASS
+2022-12-25 15:51:51,994 - com.AddEmployee.VallidatingLoginPage -INFO - Last Names Are Matching-PASS
+2022-12-25 15:51:53,915 - com.AddEmployee.VallidatingLoginPage -INFO - Both Id's Are Matching-PASS
+2022-12-25 15:51:53,949 - com.AddEmployee.VallidatingLoginPage -INFO - Titles are Matching-PASS
+2022-12-25 15:51:53,979 - com.AddEmployee.VallidatingLoginPage -ERROR - First Names Are Not Matching-PASS
+2022-12-25 15:51:54,008 - com.AddEmployee.VallidatingLoginPage -INFO - Middle Names Are Matching-PASS
+2022-12-25 15:51:54,037 - com.AddEmployee.VallidatingLoginPage -INFO - Last Names Are Matching-PASS
+2022-12-25 15:51:55,827 - com.AddEmployee.VallidatingLoginPage -INFO - Both Id's Are Matching-PASS
+2022-12-25 15:51:55,861 - com.AddEmployee.VallidatingLoginPage -INFO - Titles are Matching-PASS
+2022-12-25 15:51:55,893 - com.AddEmployee.VallidatingLoginPage -INFO - First Names Are Matching-PASS
+2022-12-25 15:51:55,918 - com.AddEmployee.VallidatingLoginPage -INFO - Middle Names Are Matching-PASS
+2022-12-25 15:51:55,950 - com.AddEmployee.VallidatingLoginPage -INFO - Last Names Are Matching-PASS
+2022-12-25 15:51:57,772 - com.AddEmployee.VallidatingLoginPage -INFO - Both Id's Are Matching-PASS
+2022-12-25 15:51:57,808 - com.AddEmployee.VallidatingLoginPage -INFO - Titles are Matching-PASS
+2022-12-25 15:51:57,836 - com.AddEmployee.VallidatingLoginPage -INFO - First Names Are Matching-PASS
+2022-12-25 15:51:57,864 - com.AddEmployee.VallidatingLoginPage -INFO - Middle Names Are Matching-PASS
+2022-12-25 15:51:57,910 - com.AddEmployee.VallidatingLoginPage -INFO - Last Names Are Matching-PASS
+2022-12-25 15:52:00,811 - com.AddEmployee.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:52:03,637 - com.EmployeeList.VallidatingLoginPage -INFO - Landed at Login Page
+2022-12-25 15:52:03,645 - com.EmployeeList.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2022-12-25 15:52:03,668 - com.EmployeeList.VallidatingLoginPage -INFO - The UserName is :- Bijjampoorna
+2022-12-25 15:52:03,668 - com.EmployeeList.VallidatingLoginPage -INFO - The PassWord is :- Bijjampoorna12$
+2022-12-25 15:52:11,796 - com.EmployeeList.VallidatingLoginPage -INFO - The Expected HomePage Title:- Admin
+2022-12-25 15:52:11,840 - com.EmployeeList.VallidatingLoginPage -INFO - The Actual HomePage Title:- Welcome Admin
+2022-12-25 15:52:11,841 - com.EmployeeList.VallidatingLoginPage -INFO - HomePage Titles Are Matching-PASS
+2022-12-25 15:52:14,670 - com.EmployeeList.VallidatingLoginPage -INFO - Both Names Are Matching-PASS
+2022-12-25 15:52:19,836 - com.EmployeeList.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:29:37,721 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:29:37,728 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:29:37,740 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:29:37,744 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:29:37,756 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:29:37,761 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:29:37,789 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:29:37,793 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:29:37,820 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:29:37,823 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:30:18,924 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:18,930 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:30:18,944 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:18,948 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:30:18,964 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:18,970 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:30:18,993 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:18,997 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:30:19,024 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:19,027 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Titles Are Matching-PASS
+2023-06-15 13:30:22,174 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected HomePage Title:- Admin
+2023-06-15 13:30:22,210 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Actual HomePage Title:- Welcome Admin
+2023-06-15 13:30:22,210 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - HomePage Titles Are Matching-PASS
+2023-06-15 13:30:34,339 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2023-06-15 13:30:34,349 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:34,370 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2023-06-15 13:30:34,381 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:34,401 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2023-06-15 13:30:34,409 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:34,430 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2023-06-15 13:30:34,435 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page
+2023-06-15 13:30:34,444 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - The Expected Name Of Login Test is :- LOGIN Panel
+2023-06-15 13:30:34,449 - com.LoginwithMultipleData.VallidatingLoginPage -INFO - Landed at Login Page

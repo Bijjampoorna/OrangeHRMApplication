@@ -1,0 +1,46 @@
+package com.WebdriverExamples;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Tc_008_SelectOperation 
+{
+	WebDriver driver;
+	String urlAddress="https://www.facebook.com/";
+	public void setUp()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\selTraining\\DriverFiles\\chromedriver.exe");
+		driver=new ChromeDriver();
+		
+		driver.get(urlAddress);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
+	}
+	
+	public void selection()
+	{//u_0_0_S+
+	 //u_0_0_pI
+		//@a[starts-with(@id,'u_0_0_']
+		By createElement=By.xpath("//@a[starts-with(@id,'u_0_0_')]");
+		WebElement createL=driver.findElement(createElement);
+		createL.click();
+		
+		
+		
+		
+
+	}
+	public static void main(String[] args)
+	{
+	
+		Tc_008_SelectOperation se=new Tc_008_SelectOperation();
+		se.setUp();
+		se.selection();
+	}
+}
+

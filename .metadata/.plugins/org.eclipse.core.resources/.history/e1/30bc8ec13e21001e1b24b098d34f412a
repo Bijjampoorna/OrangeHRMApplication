@@ -1,0 +1,14 @@
+<suite name="OHRMApplicationExcelOperations">
+	<test name="loginTest">
+		<classes>
+			<class name="com.LoginFunctionality.LogOutValidation"/>
+		</classes>
+	</test>
+	
+	<test name="addEmployee">
+		<classes>
+			<class name="com.AddEmployeeFunctionality.LogOut"/>
+		</classes>
+	</test>
+			
+</suite>		

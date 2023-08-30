@@ -1,0 +1,104 @@
+package com.EmployeeList;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class EmployeeList extends Login
+{
+
+	@Test(priority=2)
+	public void employeeListValidation() throws IOException
+	{
+		//PROPERTYFILE	   
+		   FileInputStream proFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+		   Properties pr=new Properties();
+		   pr.load(proFile);
+		   
+	//EXCELFILE
+		   FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\src\\com\\ExcelWorkBooks\\EmployeeListTestData.xlsx");
+		   
+		   XSSFWorkbook workbook=new XSSFWorkbook(excelFile);
+		   
+		   XSSFSheet sheet=workbook.getSheet("Sheet1");
+		   
+	//GETTING ACTIVE NO. OF ROWS IN THE SHEET
+		   
+		   int rowCount=sheet.getLastRowNum();
+		   System.out.println("The no. of active rows in the sheet is-"+rowCount);
+		   log.info("The no. of active rows in the sheet is-"+rowCount);
+		   
+		   
+			   //Getting the rows from sheet
+			   
+			   Row rowSheet=sheet.getRow(01);
+			   
+			   
+			   //Finding The Element
+			   By pim_Element=By.id(pr.getProperty("PIMElement"));
+			   WebElement pimElementL=driver.findElement(pim_Element);
+			   
+			   Actions act=new Actions(driver);
+			   act.moveToElement(pimElementL).build().perform();
+			   
+			   By employeeListElement=By.id("employeeListElement");
+			   WebElement employeeListL=driver.findElement(employeeListElement);
+			   employeeListL.click();
+			   
+			   
+					   
+			   
+			   
+			   
+			 //Getting expected info from excel
+			   
+			   Cell expected_EmployeeListPageText=rowSheet.getCell(11);
+			   String expectedEmployeeListPageText=expected_EmployeeListPageText.getStringCellValue();
+			   log.info("The Expected Text of EmployeeListPage is-"+expectedEmployeeListPageText);
+			   
+			 //Getting actual Info from the webApplication
+			   By employeeListPageElement=By.linkText("employeeListPageTitle");
+			   WebElement employeeListPageL=driver.findElement(employeeListPageElement);
+			   String actualEmployeeListPageText=employeeListPageL.getText();
+			   log.info("The Actual Text of EmployeeListPage is-"+actualEmployeeListPageText);
+			   
+			   Cell actual_EmployeeListPageText=rowSheet.createCell(12);
+			   actual_EmployeeListPageText.setCellValue(actualEmployeeListPageText);
+			   
+			   if(actualEmployeeListPageText.equals(expectedEmployeeListPageText))
+			   {
+				    String text_Result="Text Is Matching-PASS";
+					log.info(text_Result);
+					Cell TestTextResult=rowSheet.createCell(13);
+					TestTextResult.setCellValue(text_Result);
+						
+				   
+			   }
+			   else
+			   {
+				    String text_Result="Text Is Not Matching-PASS";
+					log.info(text_Result);
+					Cell TestTextResult=rowSheet.createCell(10);
+					TestTextResult.setCellValue(text_Result);
+						
+			   }
+			   
+			  
+			   FileOutputStream testResults=new FileOutputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\src\\com\\ExcelWorkBooks\\EmployeeListTestDataResults.xlsx.xlsx");	
+				workbook.write(testResults);
+		
+	}
+	
+	
+}

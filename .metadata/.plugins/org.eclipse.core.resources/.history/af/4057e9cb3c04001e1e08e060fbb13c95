@@ -1,0 +1,44 @@
+package com.HomePage;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class BingHomePage 
+{
+
+	public static void main(String[] args) {
+		
+		String expectedHomePageTitle="Bing";
+		String applicationUrlAddress="https://www.bing.com/#!";
+		
+		System.setProperty("webdriver.edge.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\DriverFiles\\msedgedriver.exe");
+		
+		EdgeDriver driver=new EdgeDriver();
+		
+		driver.manage().deleteAllCookies();
+
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.get(applicationUrlAddress);
+		
+		String actualHomePageTitle=driver.getTitle();
+		
+		System.out.println("The Name of the title is-"+actualHomePageTitle);
+		
+		if(actualHomePageTitle.equalsIgnoreCase(expectedHomePageTitle))
+		{
+			System.out.println("Titles Are Matching-PASS");
+			
+		}
+		else
+		{
+			System.out.println("Titles Are Not Matching-FAIL");
+			
+		}
+		
+		driver.close();
+	}
+	
+	
+}

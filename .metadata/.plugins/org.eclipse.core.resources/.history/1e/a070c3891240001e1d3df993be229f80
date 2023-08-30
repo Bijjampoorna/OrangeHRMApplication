@@ -1,0 +1,51 @@
+package com.WebdriverExamples;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.hssf.util.HSSFColor.LAVENDER;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Tc_013_MultipleSelection
+{
+	WebDriver driver;
+	String urlAddress="https://www.osmania.ac.in/";
+	
+	public void setUp()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\selTraining\\DriverFiles\\chromedriver.exe");
+		driver=new ChromeDriver();
+		
+		driver.get(urlAddress);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(05,TimeUnit.SECONDS);
+		
+	}
+	
+	public void mutilplescreenshot()
+	{
+		By languageMenuElement=By.id("gtranslate_selector");
+		WebElement languagemenuL=driver.findElement(languageMenuElement);
+		
+		List<WebElement> languageL=languagemenuL.findElements(By.tagName("option"));
+		int languageCount=languageL.size();
+		System.out.println("The count of total languages is-"+languageCount);
+	}
+	public void tearDown()
+	{
+		driver.quit();
+	}
+	
+	public static void main(String[] args) 
+	{
+	
+		Tc_013_MultipleSelection ms=new Tc_013_MultipleSelection();
+		ms.setUp();
+		ms.mutilplescreenshot();
+		
+	}
+	
+}

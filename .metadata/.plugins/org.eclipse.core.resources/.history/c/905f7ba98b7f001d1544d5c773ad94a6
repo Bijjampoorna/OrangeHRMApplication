@@ -1,0 +1,45 @@
+package com.RadioButtonClick;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class RadioButtonTesting extends Basetest {
+	
+	@Test
+	public void RadioButton() throws InterruptedException
+	{
+		
+		
+		
+	//<input type="radio" name="group1" value="Milk">
+	//<input type="radio" name="group1" value="Butter" checked="">
+	//<input type="radio" name="group2" value="Water">
+	//<input type="radio" name="group2" value="Wine" checked="">
+		
+		By radioButton1L=By.name("group1");
+		List<WebElement> radioButton1Element=driver.findElements(radioButton1L);
+		int radioButton1Size=radioButton1Element.size();
+		System.out.println("The Size of RadioButton1 Elements is:- "+radioButton1Size);
+		
+		By radioButton2L=By.name("group2");
+		List<WebElement> radioButton2Element=driver.findElements(radioButton2L);
+		int radioButton2Size=radioButton2Element.size();
+		System.out.println("The Size of RadioButton2 Elements is:- "+radioButton2Size);
+		
+		for(int i=1;i<radioButton1Size;i++)
+		{
+			radioButton1Element.get(i).click();
+			Thread.sleep(5000);
+			By radioButtonElementListL=By.tagName("input");
+			List<WebElement>radioButtonElementList=driver.findElements(radioButtonElementListL);
+			int radioButtonElementListSize=radioButtonElementList.size();
+			System.out.println("The Size of radioButton Element List is:- "+radioButtonElementListSize);
+			
+		}
+		
+	}
+
+}

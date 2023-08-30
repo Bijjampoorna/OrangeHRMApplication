@@ -1,0 +1,39 @@
+package com.OrangeHRMApplicationTestCases_PagesTest;
+
+import com.BaseTest.BaseTest;
+import com.OrangeHRMApplicationPages.OrangeHRMApplicationLoginPage;
+import com.Utility.Log;
+
+public class OrangeHRMApplicationLoginPageTest extends BaseTest 
+{
+
+	OrangeHRMApplicationLoginPage OALIP;
+	
+	public void OHRMLoginPageImageValidationTest()
+	{
+		
+		OALIP=new OrangeHRMApplicationLoginPage();
+		OALIP.oHRMLoginPageImageValidation();
+		Log.info("OHRMLoginPageImageValidationTest Sucessfull");
+	
+		
+	}
+	
+	public void OHRMLoginPagetextValidationTest()
+	{
+		OALIP=new OrangeHRMApplicationLoginPage();
+		OALIP.oHRMLoginPageTextValidation();
+		Log.info("OHRMLoginPagetextValidationTest Sucessfull");
+	}
+	
+	public void OHRMLoginFuctionalityTest()
+	{
+		OALIP=new OrangeHRMApplicationLoginPage();
+		OALIP.OHRMLoginPageLoginFunctionality("Bijjampoorna","Bijjampoorna12$");
+		Log.info("OHRMLoginFunctionality Sucessfull");
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,13 @@
+package com.Login;
+
+import org.testng.annotations.Test;
+
+public class LogoutPageValidation extends LoginPageFunctionality
+{
+	@Test(priority=3)
+	public void logoutValidation()
+	{
+		
+	}
+	
+}

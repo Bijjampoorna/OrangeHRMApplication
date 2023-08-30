@@ -1,0 +1,19 @@
+package com.LogFiles;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+import com.LoginwithMultipleData.VallidatingLoginPage;
+
+public class OHRM_LogFiles 
+{
+
+	Logger log=Logger.getLogger(VallidatingLoginPage.class);
+	public void logInfo()
+	{
+		PropertyConfigurator.configure("OrangeHRMApplication_DDT_LogFiles.properties");
+		
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.WebdriverExamples;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class Tc_001_VerifyURL 
+{
+	public static void main(String[] args)
+	{
+		String applicationUrlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+		System.setProperty("webdriver.chrome.driver", "/selTraining/DriverFiles/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get(applicationUrlAddress);
+		
+		
+	}
+
+}

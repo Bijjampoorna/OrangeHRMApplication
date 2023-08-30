@@ -1,0 +1,33 @@
+package com.ExcelSetUp;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excel 
+{
+	public static XSSFWorkbook workbook;
+	public static XSSFSheet sheet;
+	public static Row row;
+	public static Cell cell;
+	
+	public void excelPath() throws IOException
+	{
+		String loginDataPath="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\ExcelWorkBooks\\LogInTestData.xlsx";
+		FileInputStream loginData=new FileInputStream(loginDataPath);
+		
+		workbook=new XSSFWorkbook(loginData);
+		
+		
+		
+		
+		
+	}
+	
+}

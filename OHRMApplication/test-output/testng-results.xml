@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18913" started-at="2023-06-15T08:00:16Z" finished-at="2023-06-15T08:00:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18913" started-at="2023-06-15T08:00:16Z" finished-at="2023-06-15T08:00:35Z">
+      <class name="com.LoginwithMultipleData.ValidatingLogOutPage">
+        <test-method status="PASS" signature="applicationLaunch()[pri:0, instance:com.LoginwithMultipleData.ValidatingLogOutPage@2f7c7260]" name="applicationLaunch" is-config="true" duration-ms="2314" started-at="2023-06-15T13:30:16Z" finished-at="2023-06-15T13:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="PASS" signature="ValidatingLoginPage()[pri:1, instance:com.LoginwithMultipleData.ValidatingLogOutPage@2f7c7260]" name="ValidatingLoginPage" duration-ms="576" started-at="2023-06-15T13:30:18Z" finished-at="2023-06-15T13:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingLoginPage -->
+        <test-method status="PASS" signature="loginFunctionalityOfOHRM()[pri:2, instance:com.LoginwithMultipleData.ValidatingLogOutPage@2f7c7260]" name="loginFunctionalityOfOHRM" duration-ms="15200" started-at="2023-06-15T13:30:19Z" finished-at="2023-06-15T13:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionalityOfOHRM -->
+        <test-method status="PASS" signature="logoutPageValidation()[pri:3, instance:com.LoginwithMultipleData.ValidatingLogOutPage@2f7c7260]" name="logoutPageValidation" duration-ms="168" started-at="2023-06-15T13:30:34Z" finished-at="2023-06-15T13:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPageValidation -->
+        <test-method status="PASS" signature="applicationClose()[pri:0, instance:com.LoginwithMultipleData.ValidatingLogOutPage@2f7c7260]" name="applicationClose" is-config="true" duration-ms="644" started-at="2023-06-15T13:30:34Z" finished-at="2023-06-15T13:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- com.LoginwithMultipleData.ValidatingLogOutPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

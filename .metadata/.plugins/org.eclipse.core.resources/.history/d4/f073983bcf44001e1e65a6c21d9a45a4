@@ -1,0 +1,15 @@
+package com.Utility;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+public class Log 
+{
+
+	Logger log=Logger.getLogger(Log.class);
+	public void logg()
+	{
+		String filePath="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\Log4jFile\\OrangeHRMApplication_POM_LogFiles.properties";
+		PropertyConfigurator.configure(filePath);
+	}
+}

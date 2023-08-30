@@ -1,0 +1,64 @@
+package com.MouseHoverOperations;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class ICICI 
+{
+
+	
+	WebDriver driver;
+	String applicationUrlAddress="https://www.icicibank.com/";
+	
+	@BeforeTest
+	public void setUp()
+	{
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\DriverFiles\\chromedriver.exe");
+		
+		driver=new ChromeDriver();
+		
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		driver.get(applicationUrlAddress);
+		
+	}
+	
+	@Test
+	public void ICICIMouseHover() throws InterruptedException
+	{
+		//LinkText=Accounts
+		By accountsElements=By.className("m-text");
+		WebElement accountsL=driver.findElement(accountsElements);
+		String accountTitle=accountsL.getText();
+		System.out.println("The Title of the account element is"+accountTitle);
+		
+		Actions mouseHover=new Actions(driver);
+		mouseHover.moveToElement(accountsL).build().perform();
+		Thread.sleep(1500);
+		
+		
+		
+		
+	}
+	
+	@AfterTest
+	public void tearDown()
+	{
+		driver.close();
+		
+	}
+	
+	
+	
+}

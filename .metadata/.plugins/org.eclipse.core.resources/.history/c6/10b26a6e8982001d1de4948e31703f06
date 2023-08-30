@@ -1,0 +1,20 @@
+package com.OrangeHRMApplicationTestCases_PagesTest;
+
+import com.BaseTest.BaseTest;
+import com.OrangeHRMApplicationPages.OrangeHRMApplicationLoginPage;
+
+public class OrangeHRMApplicationLoginPageTest extends BaseTest 
+{
+
+	OrangeHRMApplicationLoginPage OALIP;
+	
+	public void OHRMLoginPageImageValidationTest()
+	{
+		
+		OALIP=new OrangeHRMApplicationLoginPage();
+		OALIP.oHRMLoginPageImageValidation();
+		logg.in
+		
+	}
+	
+}

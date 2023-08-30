@@ -1,0 +1,49 @@
+package com.AddEmployee;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class HomepageValidation extends LoginPageValidation
+{
+
+	@Test(priority=2)
+	public void homeValidation() throws IOException
+	{
+
+		//PROPERTY FILE
+		FileInputStream propertyFilePath=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(propertyFilePath);
+		
+		//EXCEL FILE
+		FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\src\\com\\ExcelWorkBooks\\LogInTestDataResults.xlsx");
+		
+		XSSFWorkbook workbook=new XSSFWorkbook(excelFile);		
+		XSSFSheet sheet=workbook.getSheet("Sheet1");
+		
+		int rowCount=sheet.getLastRowNum();
+		//System.out.println("The number of active rows in the sheet is-"+rowCount);
+		log.info("The number of active rows in the sheet is-"+rowCount);
+		
+		Row sheetRow=sheet.getRow(01);
+		//username
+		Cell userNameData=sheetRow.getCell(06);
+		String userName=userNameData.getStringCellValue();
+		log.info("The UserName is-"+userName);
+		
+		//password
+		Cell passwordData=sheetRow.getCell(07);
+		String password=passwordData.getStringCellValue();
+		log.info("The password is-"+password);
+		
+	}
+	
+	
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20957" started-at="2023-08-29T14:03:24Z" finished-at="2023-08-29T14:03:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20957" started-at="2023-08-29T14:03:24Z" finished-at="2023-08-29T14:03:45Z">
+      <class name="com.AddEmployee.LogoutValidation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AddEmployee.LogoutValidation@1cd072a9]" name="setUp" is-config="true" duration-ms="2953" started-at="2023-08-29T19:33:24Z" finished-at="2023-08-29T19:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginValidation()[pri:1, instance:com.AddEmployee.LogoutValidation@1cd072a9]" name="loginValidation" duration-ms="758" started-at="2023-08-29T19:33:27Z" finished-at="2023-08-29T19:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="homeValidation()[pri:2, instance:com.AddEmployee.LogoutValidation@1cd072a9]" name="homeValidation" duration-ms="1619" started-at="2023-08-29T19:33:28Z" finished-at="2023-08-29T19:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeValidation -->
+        <test-method status="PASS" signature="addEmployee()[pri:3, instance:com.AddEmployee.LogoutValidation@1cd072a9]" name="addEmployee" duration-ms="12444" started-at="2023-08-29T19:33:30Z" finished-at="2023-08-29T19:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="logOutValidation()[pri:4, instance:com.AddEmployee.LogoutValidation@1cd072a9]" name="logOutValidation" duration-ms="2455" started-at="2023-08-29T19:33:42Z" finished-at="2023-08-29T19:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AddEmployee.LogoutValidation@1cd072a9]" name="tearDown" is-config="true" duration-ms="707" started-at="2023-08-29T19:33:45Z" finished-at="2023-08-29T19:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.AddEmployee.LogoutValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

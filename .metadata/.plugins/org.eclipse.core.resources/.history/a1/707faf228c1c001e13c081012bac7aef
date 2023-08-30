@@ -1,0 +1,147 @@
+package com.AddEmployeeFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.helpers.RowShifter;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class AddEmployee extends Login
+{
+	@Test(priority=2)
+	public void addingEmployee() throws IOException, InterruptedException
+	{
+		
+		//PROPERTYFILE	   
+		   FileInputStream proFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+		   Properties pr=new Properties();
+		   pr.load(proFile);
+		   
+	//EXCELFILE
+		   FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\src\\com\\ExcelWorkBooks\\AddEmployeeTestData.xlsx");
+		   
+		   XSSFWorkbook workbook=new XSSFWorkbook(excelFile);
+		   
+		   XSSFSheet sheet=workbook.getSheet("Sheet1");
+		   
+	//GETTING ACTIVE NO. OF ROWS IN THE SHEET
+		   
+		   int rowCount=sheet.getLastRowNum();
+		   System.out.println("The no. of active rows in the sheet is-"+rowCount);
+		   log.info("The no. of active rows in the sheet is-"+rowCount);
+		   
+		   for(int row=1;row<rowCount;row++)
+		   {
+			   
+	//GETTING THE ROWS FROM THE SHEET
+			   Row rowSheet=sheet.getRow(row);
+			   
+	//FINDING THE ELEMENT TO GO TO ADD EMPLOYEE PAGE
+			   
+			   By pIMElement=By.id(pr.getProperty("PIMElement"));
+			   WebElement pIMElementL=driver.findElement(pIMElement);
+			   
+			   Actions act=new Actions(driver);
+			   act.moveToElement(pIMElementL).build().perform();
+			   
+			   Thread.sleep(1500);
+			   
+			   By addEmployeeElement=By.id(pr.getProperty("addEmployeeElement"));
+			   WebElement addEmployeeL=driver.findElement(addEmployeeElement);
+			   
+			   addEmployeeL.click();
+			   
+	//GETTING EXPECTED INFO FROM EXCEL SHEETS
+			   
+			   Cell expected_AddEmployeePageText=rowSheet.getCell(11);
+			   String expectedAddEmployeePageText=expected_AddEmployeePageText.getStringCellValue();
+			   log.info("The Expected Add Employee Page Text is-"+expectedAddEmployeePageText);
+			   
+	//GETTING ACTUAL INFO FROM APPLICATION
+			   
+			   By addEmployeeTextElement=By.linkText(pr.getProperty("addEmployeeTitle"));
+			   WebElement addEmpolyeeTextL=driver.findElement(addEmployeeTextElement);
+			   String actualAddemployeePageText=addEmpolyeeTextL.getText();
+			   log.info("The actual text of add employee page is-"+actualAddemployeePageText);
+			   
+			   Cell actual_AddemployeePageText=rowSheet.createCell(12);
+			   actual_AddemployeePageText.setCellValue(actualAddemployeePageText);
+			
+	//VALIDATING ACTUAL TEXT AGAINIST EXPECTED TEXT		   
+			   
+			   if(actualAddemployeePageText.equals(expectedAddEmployeePageText))
+			   {
+				   String textResults="Text is Matching";
+				   log.info(textResults);
+				   Cell testResult=rowSheet.createCell(13);
+				   testResult.setCellValue(textResults);  
+			   }
+			   else
+			   {
+				   String textResults="Text is not Matching";
+				   log.info(textResults);
+				   Cell testResult=rowSheet.createCell(13);
+				   testResult.setCellValue(textResults);
+				   
+			   }
+	
+			   
+	//ADDING FIRST,MIDDLE,LAST NAME OF EMPLOYEE	
+			   
+			Cell expected_FirstName=rowSheet.getCell(14);
+			String expectedFirstName=expected_FirstName.getStringCellValue();
+			log.info("The expected first name of employee is -"+expectedFirstName);
+			
+			By firstNameElement=By.id(pr.getProperty("firstNameElement"));
+			WebElement firstNameL=driver.findElement(firstNameElement);
+			firstNameL.sendKeys(expectedFirstName);
+			
+			Cell expected_MiddleName=rowSheet.getCell(15);
+			String expectedMiddleName=expected_MiddleName.getStringCellValue();
+			log.info("The expected Middle name of employee is"+expectedMiddleName);
+			
+			By middleNameElement=By.id(pr.getProperty("middleNameElement"));
+			WebElement middleNameL=driver.findElement(middleNameElement);
+			middleNameL.sendKeys(expectedMiddleName);
+			
+			Cell expected_LastName=rowSheet.getCell(16);
+			String expectedLastName=expected_LastName.getStringCellValue();
+			log.info("The Expected Last Name Of Employee is -"+expectedLastName);
+			
+			By lastNameElement=By.id(pr.getProperty("lastNameElement"));
+			WebElement lastNameL=driver.findElement(lastNameElement);
+			lastNameL.sendKeys(expectedLastName);
+			
+//SAVE
+			By saveBtnElement=By.id(pr.getProperty("saveBtnElement"));
+			WebElement saveBtnL=driver.findElement(saveBtnElement);
+			saveBtnL.click();
+			
+					
+			
+			
+			
+			
+			   
+			   
+			   
+		   }
+		   
+		
+		
+		
+		
+	}
+	
+	
+	
+}

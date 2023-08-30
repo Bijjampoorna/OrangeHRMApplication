@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMApplication Login Page]">
+  <test name="LogInPageTest">
+    <classes>
+      <class name="com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationLoginPageTest"/>
+    </classes>
+  </test> <!-- LogInPageTest -->
+  <test name="HomePageTest">
+    <classes>
+      <class name="com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest"/>
+    </classes>
+  </test> <!-- HomePageTest -->
+</suite> <!-- Failed suite [OrangeHRMApplication Login Page] -->

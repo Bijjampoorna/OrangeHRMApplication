@@ -1,0 +1,28 @@
+package com.LoginFunctionality;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class LogOutValidation extends LoginFunctionality
+{
+  
+	public void logOutValidationOfOHRM() 
+	{
+		
+		//LOGGING OUT	
+				welcomeAdminL.click();
+				Thread.sleep(2000);
+				
+				By logOutElement=By.linkText(pr.getProperty("logOutElement"));
+				WebElement logOutL=driver.findElement(logOutElement);
+				logOutL.click();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}

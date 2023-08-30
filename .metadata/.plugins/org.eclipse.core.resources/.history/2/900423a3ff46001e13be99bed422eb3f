@@ -1,0 +1,15 @@
+package com.Utility;
+
+import org.apache.log4j.Logger;
+
+public class Log 
+{
+
+	private static Logger logg=Logger.getLogger(Log.class);
+	
+	public static void info(String message)
+	{
+		logg.info(message);
+	}
+	
+}

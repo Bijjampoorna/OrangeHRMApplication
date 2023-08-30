@@ -1,0 +1,25 @@
+package com.javaExamples;
+
+public class conditional_Statements
+{
+
+	public void ifStatement()
+	{
+		int studentMarks=80;
+		
+		if(studentMarks==80)
+		{
+			System.out.println("The student marks is-"+studentMarks);
+		}
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		conditional_Statements cs=new conditional_Statements();
+		
+		cs.ifStatement();
+		
+	}
+	
+}

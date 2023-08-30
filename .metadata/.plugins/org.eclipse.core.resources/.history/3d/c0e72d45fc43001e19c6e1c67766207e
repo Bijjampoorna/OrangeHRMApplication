@@ -1,0 +1,12 @@
+package com.ohrm.testscripts;
+import com.ohrm.lib.General;
+public class Tc_001_Login_LogOut 
+{
+
+	public static void main(String[] args) 
+	{
+		Tc_001_Login_LogOut ll=new Tc_001_Login_LogOut();
+	
+		
+	}
+}

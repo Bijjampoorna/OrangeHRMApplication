@@ -1,0 +1,42 @@
+package com.LoginFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import com.BaseTest.BaseTest;
+
+public class LoginPageValidation extends BaseTest 
+{
+
+	public void loginPage() throws IOException
+	{
+		
+		FileInputStream prFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(prFile);
+	//VALIDATING LOGINPAGE	
+		String expectedLoginpageTitle="OrangeHRM";
+		
+		String actualLoginPageTitle=driver.getTitle();
+		
+		System.out.println("The LoginPage Title is-"+actualLoginPageTitle);
+		
+		if(actualLoginPageTitle.equals(expectedLoginpageTitle))
+		{
+			System.out.println("The Titles Are Matching-PASS");
+			
+		}
+		else
+		{
+			System.out.println("The Titles Are Not Matching-FAIL");
+		}
+		
+		
+		
+	}
+	
+	
+	
+}

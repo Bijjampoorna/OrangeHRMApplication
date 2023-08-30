@@ -1,0 +1,37 @@
+package com.WebdriverExamples;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Tc_009_FileUpload
+{
+
+	WebDriver driver;
+	String urlAddress="https://the-internet.herokuapp.com/upload";
+	public void setup()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\selTraining\\DriverFiles\\chromedriver.exe");
+		driver=new ChromeDriver();
+		
+		driver.get(urlAddress);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
+	}
+	public void fileUpload()
+	{
+		By fileUploadElement=By.id("file-upload");
+		WebElement fileUploadL=driver.findElement(fileUploadElement);
+		fileUploadL.sendKeys("C:\\Users\\bijja\\Desktop\\spidey.jpg");
+	}
+	
+	public static void main(String[] args) 
+	{
+		Tc_009_FileUpload fu=new Tc_009_FileUpload();
+		fu.setup();
+	}
+}

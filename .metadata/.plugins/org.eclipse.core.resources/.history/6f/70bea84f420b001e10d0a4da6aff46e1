@@ -1,0 +1,18 @@
+package com.LoginFunctionality;
+
+public class LoginFunctionality extends LoginPageValidation
+{
+
+	public void LoginFunctionalityTesting()
+	{
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,27 @@
+package com.AddEmployeeFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.log4j.PropertyConfigurator;
+
+public class LogOut extends AddEmployee
+{
+
+	public void logOutFunctionality() throws IOException
+	{
+		
+	//PROPERTY FILE	
+		FileInputStream proFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(proFile);
+		
+	//EXCEL FILE
+		FileInputStream excelFile=new FileInputStream("C:\\\\Users\\\\bijja\\\\Desktop\\\\OrangeHRMApplication\\\\OHRMApplicationExcelOperations\\\\src\\\\com\\\\ExcelWorkBooks\\\\AddEmployeeTestResults.xlsx");
+		
+	}
+	
+	
+}

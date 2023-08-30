@@ -1,0 +1,51 @@
+package com.LoginFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+
+
+
+public class LoginPageValidation extends BaseTest
+{
+	public static XSSFWorkbook workbook;
+	public static XSSFSheet sheet;
+	public static Row row;
+	public static Cell cell;
+	
+@Test
+	public void loginPage() throws IOException
+	{
+	String loginDataPath="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\ExcelWorkBooks\\LogInTestData.xlsx";
+	FileInputStream loginData=new FileInputStream(loginDataPath);
+	
+	workbook=new XSSFWorkbook(loginData);
+	
+		FileInputStream prFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRMApplicationExcelOperations\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(prFile);
+		
+//VALIDATING LOGIN PANEL 
+		
+		sheet=workbook.getSheet("Sheet1");
+		
+		int rowsCount=sheet.getLastRowNum();
+		System.out.println("The Active Rows In The Sheet Are:-"+rowsCount);
+		
+		
+		
+		
+	}
+	
+	
+	
+}

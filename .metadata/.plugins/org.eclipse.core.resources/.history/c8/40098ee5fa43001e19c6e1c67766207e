@@ -1,0 +1,58 @@
+package com.ohrm.lib;
+
+import java.util.concurrent.TimeUnit;
+
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class General extends Global
+{
+
+	public void setUp()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_Modular_FrameWork\\DriverFiles\\chromedriver.exe");
+		driver=new ChromeDriver();
+		
+		driver.manage().deleteAllCookies();
+		driver.get(urlAddress);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(05, TimeUnit.SECONDS);
+	}
+	
+	public void login()
+	{
+		WebElement loginPanelL=driver.findElement(By.id(loginPanelElement));
+		String actualLoginPageText=loginPanelL.getText();
+		System.out.println("The actual text of login page is-");
+		if(actualLoginPageText.equals(expectedLoginPageText))
+		{
+			System.out.println("landed at Login Page");
+		}
+		else
+		{
+			System.out.println("Failed to land at login page");
+		}
+		
+		WebElement userNameL=driver.findElement(By.id(userNameElement));
+		userNameL.sendKeys(userName);
+		
+		WebElement passwordL=driver.findElement(By.id(passWordElement));
+		passwordL.sendKeys(passWord);
+		
+		WebElement loginBtnL=driver.findElement(By.id(loginBtnElement));
+		loginBtnL.click();
+		
+	}
+	
+	public void logOut()
+	{
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2643" started-at="2023-08-06T17:11:07Z" finished-at="2023-08-06T17:11:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2643" started-at="2023-08-06T17:11:07Z" finished-at="2023-08-06T17:11:10Z">
+      <class name="com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest">
+        <test-method status="FAIL" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationLaunch" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:07Z" finished-at="2023-08-06T22:41:07Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 115.0.5790.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.87.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005BACD3+2075859]
+	Ordinal0 [0x0054EE61+1633889]
+	Ordinal0 [0x0044B7BD+571325]
+	Ordinal0 [0x0046DFCD+712653]
+	Ordinal0 [0x00469266+692838]
+	Ordinal0 [0x00466BE9+682985]
+	Ordinal0 [0x0049DBD3+908243]
+	Ordinal0 [0x0049D6AA+906922]
+	Ordinal0 [0x00497136+880950]
+	Ordinal0 [0x0046FEFD+720637]
+	Ordinal0 [0x00470F3F+724799]
+	GetHandleVerifier [0x0086EED2+2769538]
+	GetHandleVerifier [0x00860D95+2711877]
+	GetHandleVerifier [0x0064A03A+521194]
+	GetHandleVerifier [0x00648DA0+516432]
+	Ordinal0 [0x0055682C+1665068]
+	Ordinal0 [0x0055B128+1683752]
+	Ordinal0 [0x0055B215+1683989]
+	Ordinal0 [0x00566484+1729668]
+	BaseThreadInitThunk [0x762E7D59+25]
+	RtlInitializeExceptionChain [0x76FAB79B+107]
+	RtlClearBits [0x76FAB71F+191]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 115.0.5790.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.87.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005BACD3+2075859]
+	Ordinal0 [0x0054EE61+1633889]
+	Ordinal0 [0x0044B7BD+571325]
+	Ordinal0 [0x0046DFCD+712653]
+	Ordinal0 [0x00469266+692838]
+	Ordinal0 [0x00466BE9+682985]
+	Ordinal0 [0x0049DBD3+908243]
+	Ordinal0 [0x0049D6AA+906922]
+	Ordinal0 [0x00497136+880950]
+	Ordinal0 [0x0046FEFD+720637]
+	Ordinal0 [0x00470F3F+724799]
+	GetHandleVerifier [0x0086EED2+2769538]
+	GetHandleVerifier [0x00860D95+2711877]
+	GetHandleVerifier [0x0064A03A+521194]
+	GetHandleVerifier [0x00648DA0+516432]
+	Ordinal0 [0x0055682C+1665068]
+	Ordinal0 [0x0055B128+1683752]
+	Ordinal0 [0x0055B215+1683989]
+	Ordinal0 [0x00566484+1729668]
+	BaseThreadInitThunk [0x762E7D59+25]
+	RtlInitializeExceptionChain [0x76FAB79B+107]
+	RtlClearBits [0x76FAB71F+191]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.BaseTest.BaseTest.applicationLaunch(BaseTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="SKIP" signature="oHRMHomePageImageValidationTest()[pri:1, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="oHRMHomePageImageValidationTest" duration-ms="1" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMHomePageImageValidationTest -->
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationClose" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="SKIP" signature="oHRMHomePageTextValidationTest()[pri:2, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="oHRMHomePageTextValidationTest" duration-ms="1" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMHomePageTextValidationTest -->
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationLaunch" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationClose" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationLaunch" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="SKIP" signature="oHRMAddemployeeFunctionalityTest()[pri:3, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="oHRMAddemployeeFunctionalityTest" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMAddemployeeFunctionalityTest -->
+        <test-method status="SKIP" signature="oHRMEmployeeListFunctionalityTest()[pri:4, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="oHRMEmployeeListFunctionalityTest" duration-ms="2" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMEmployeeListFunctionalityTest -->
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationClose" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationLaunch" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationLaunch" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationClose" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="SKIP" signature="applicationLaunch()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationLaunch" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method status="SKIP" signature="oHRMCandidateFunctionalityTest()[pri:5, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="oHRMCandidateFunctionalityTest" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMCandidateFunctionalityTest -->
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationClose" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+        <test-method status="SKIP" signature="oHRMPerformanceFunctionalityTest()[pri:6, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="oHRMPerformanceFunctionalityTest" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oHRMPerformanceFunctionalityTest -->
+        <test-method status="SKIP" signature="applicationClose()[pri:0, instance:com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest@75bd9247]" name="applicationClose" is-config="true" duration-ms="0" started-at="2023-08-06T22:41:10Z" finished-at="2023-08-06T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationClose -->
+      </class> <!-- com.OrangeHRMApplicationTestCases_PagesTest.OrangeHRMApplicationHomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

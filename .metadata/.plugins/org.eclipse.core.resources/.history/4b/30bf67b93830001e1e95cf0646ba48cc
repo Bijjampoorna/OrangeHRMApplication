@@ -1,0 +1,23 @@
+package com.javaExamples;
+
+public class Loops 
+{
+
+	public void whileLoop()
+	{
+		int a=1;
+		while(a<=10)
+		{
+			System.out.println("java is very easy");
+		}
+	
+	}
+	public static void main(String[] args) 
+	{
+	
+		Loops lo=new Loops();
+		lo.whileLoop();
+		
+	}
+	
+}

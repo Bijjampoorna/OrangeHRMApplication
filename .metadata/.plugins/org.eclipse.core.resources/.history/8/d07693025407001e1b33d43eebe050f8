@@ -1,0 +1,91 @@
+package com.OrangeHRMLoginValidation;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class OrangeHRMAddEmployee
+{
+
+	WebDriver driver;
+	String ApplicationURlAddress="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+	@BeforeTest
+	public void setUp()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\DriverFiles\\chromedriver.exe");
+		
+		driver=new ChromeDriver();
+		
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get(ApplicationURlAddress);
+		
+		
+	}
+	@Test
+	public void OHRMAddEmployee() throws IOException
+	{
+		String propertiesFile="C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\ApplicationTesting\\OHRMPropertyFile.properties";
+		
+		FileInputStream properties=new FileInputStream(propertiesFile);
+		
+		Properties pr=new Properties();
+		pr.load(properties);
+		
+		
+//VALIDATING LOGINPAGE	
+				String expectedLoginpageTitle="OrangeHRM";
+				
+				String actualLoginPageTitle=driver.getTitle();
+				
+				System.out.println("The LoginPage Title is-"+actualLoginPageTitle);
+				
+				if(actualLoginPageTitle.equals(expectedLoginpageTitle))
+				{
+					System.out.println("The Titles Are Matching-PASS");
+					
+				}
+				else
+				{
+					System.out.println("The Titles Are Not Matching-FAIL");
+				}
+				
+//LOGIN	USING DATA
+				By loginpanelElement=By.id(pr.getProperty("LoginPanelElement"));
+				WebElement loginPanelL=driver.findElement(loginpanelElement);
+				
+				By userNameElement=By.id(pr.getProperty("UserNameElement"));
+				WebElement userNameL=driver.findElement(userNameElement);
+				userNameL.sendKeys("Bijjampoorna");
+				
+				By passWordElement=By.id(pr.getProperty("PasswordElement"));
+				WebElement passWordL=driver.findElement(passWordElement);
+				passWordL.sendKeys("Bijjampoorna12$");
+				
+				By loginBTNElement=By.id(pr.getProperty("LoginBTNElement"));
+				WebElement LoginBTNL=driver.findElement(loginBTNElement);
+				LoginBTNL.click();
+				
+		
+		
+		
+		
+	}
+	
+	public void tearDown()
+	{
+		//driver.close();
+		
+	}
+	
+}

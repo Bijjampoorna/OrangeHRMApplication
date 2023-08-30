@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-OHRMApplicationExcelOperations">
+              <span class="suite-name border-passed">OHRMApplicationExcelOperations</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-OHRMApplicationExcelOperations">
+                    <span>C:\Users\bijja\Desktop\OrangeHRMApplication\OHRMApplicationExcelOperations\OrangeHRMTestNGFile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-OHRMApplicationExcelOperations">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-OHRMApplicationExcelOperations">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-OHRMApplicationExcelOperations">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-OHRMApplicationExcelOperations">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-OHRMApplicationExcelOperations">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-OHRMApplicationExcelOperations">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OHRMApplicationExcelOperations" class="hide-methods passed suite-OHRMApplicationExcelOperations"> (hide)</a> <!-- hide-methods passed suite-OHRMApplicationExcelOperations -->
+                      <a href="#" panel-name="suite-OHRMApplicationExcelOperations" class="show-methods passed suite-OHRMApplicationExcelOperations"> (show)</a> <!-- show-methods passed suite-OHRMApplicationExcelOperations -->
+                    </span>
+                    <div class="method-list-content passed suite-OHRMApplicationExcelOperations">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OHRMApplicationExcelOperations" title="com.LoginFunctionality.LogOutValidation" hash-for-method="LoginFunctionalityOfOrangeHRM">LoginFunctionalityOfOrangeHRM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OHRMApplicationExcelOperations" title="com.AddEmployeeFunctionality.LogOut" hash-for-method="LoginPageValidation">LoginPageValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OHRMApplicationExcelOperations" title="com.AddEmployeeFunctionality.LogOut" hash-for-method="addingEmployee">addingEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OHRMApplicationExcelOperations" title="com.AddEmployeeFunctionality.LogOut" hash-for-method="logOutFunctionality">logOutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OHRMApplicationExcelOperations" title="com.LoginFunctionality.LogOutValidation" hash-for-method="logOutValidationOfOHRM">logOutValidationOfOHRM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OHRMApplicationExcelOperations" title="com.LoginFunctionality.LogOutValidation" hash-for-method="loginPage">loginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OHRMApplicationExcelOperations" title="com.AddEmployeeFunctionality.LogOut" hash-for-method="validatingAddEmployeePage">validatingAddEmployeePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OHRMApplicationExcelOperations -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OHRMApplicationExcelOperations" class="panel OHRMApplicationExcelOperations">
+          <div class="suite-OHRMApplicationExcelOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.AddEmployeeFunctionality.LogOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageValidation">
+                  </a> <!-- LoginPageValidation -->
+                  <span class="method-name">LoginPageValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingEmployee">
+                  </a> <!-- addingEmployee -->
+                  <span class="method-name">addingEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutFunctionality">
+                  </a> <!-- logOutFunctionality -->
+                  <span class="method-name">logOutFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingAddEmployeePage">
+                  </a> <!-- validatingAddEmployeePage -->
+                  <span class="method-name">validatingAddEmployeePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OHRMApplicationExcelOperations-class-passed -->
+          <div class="suite-OHRMApplicationExcelOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LoginFunctionality.LogOutValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFunctionalityOfOrangeHRM">
+                  </a> <!-- LoginFunctionalityOfOrangeHRM -->
+                  <span class="method-name">LoginFunctionalityOfOrangeHRM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutValidationOfOHRM">
+                  </a> <!-- logOutValidationOfOHRM -->
+                  <span class="method-name">logOutValidationOfOHRM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage">
+                  </a> <!-- loginPage -->
+                  <span class="method-name">loginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OHRMApplicationExcelOperations-class-passed -->
+        </div> <!-- panel OHRMApplicationExcelOperations -->
+        <div panel-name="test-xml-OHRMApplicationExcelOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bijja\Desktop\OrangeHRMApplication\OHRMApplicationExcelOperations\OrangeHRMTestNGFile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OHRMApplicationExcelOperations&quot;&gt;
+  &lt;test name=&quot;loginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.LoginFunctionality.LogOutValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- loginTest --&gt;
+  &lt;test name=&quot;addEmployee&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.AddEmployeeFunctionality.LogOut&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- addEmployee --&gt;
+&lt;/suite&gt; &lt;!-- OHRMApplicationExcelOperations --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OHRMApplicationExcelOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OHRMApplicationExcelOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">loginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">addEmployee (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OHRMApplicationExcelOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OHRMApplicationExcelOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OHRMApplicationExcelOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OHRMApplicationExcelOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OHRMApplicationExcelOperations');
+function tableData_OHRMApplicationExcelOperations() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginFunctionalityOfOrangeHRM')
+data.setCell(0, 2, 'com.LoginFunctionality.LogOutValidation')
+data.setCell(0, 3, 17061);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addingEmployee')
+data.setCell(1, 2, 'com.AddEmployeeFunctionality.LogOut')
+data.setCell(1, 3, 14859);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logOutFunctionality')
+data.setCell(2, 2, 'com.AddEmployeeFunctionality.LogOut')
+data.setCell(2, 3, 2580);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validatingAddEmployeePage')
+data.setCell(3, 2, 'com.AddEmployeeFunctionality.LogOut')
+data.setCell(3, 3, 2436);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginPageValidation')
+data.setCell(4, 2, 'com.AddEmployeeFunctionality.LogOut')
+data.setCell(4, 3, 1094);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginPage')
+data.setCell(5, 2, 'com.LoginFunctionality.LogOutValidation')
+data.setCell(5, 3, 640);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logOutValidationOfOHRM')
+data.setCell(6, 2, 'com.LoginFunctionality.LogOutValidation')
+data.setCell(6, 3, 190);
+window.suiteTableData['OHRMApplicationExcelOperations']= { tableData: data, tableDiv: 'times-div-OHRMApplicationExcelOperations'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-OHRMApplicationExcelOperations">
+              </div> <!-- times-div-OHRMApplicationExcelOperations -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OHRMApplicationExcelOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OHRMApplicationExcelOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OHRMApplicationExcelOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OHRMApplicationExcelOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LoginFunctionality.LogOutValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginPage</span>
+                <span class="method-start">2156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginFunctionalityOfOrangeHRM</span>
+                <span class="method-start">2798 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOutValidationOfOHRM</span>
+                <span class="method-start">19859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20050 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.AddEmployeeFunctionality.LogOut</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20149 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageValidation</span>
+                <span class="method-start">21721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatingAddEmployeePage</span>
+                <span class="method-start">22816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingEmployee</span>
+                <span class="method-start">25252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOutFunctionality</span>
+                <span class="method-start">40112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42693 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,43 @@
+package com.AddEmployee;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class LogoutValidation extends AddEmployee_V_F
+{
+
+	@Test(priority=4)
+	public void logOutValidation() throws IOException
+	{
+		//PROPERTY FILE
+		FileInputStream propertyFilePath=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\OHRMPropertyFile.properties");
+		Properties pr=new Properties();
+		pr.load(propertyFilePath);
+				
+		//EXCEL FILE
+		FileInputStream excelFile=new FileInputStream("C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\OHRM_TestNG_FrameWork\\src\\com\\ExcelWorkBooks\\AddEmployeeTestDataResults.xlsx");
+		
+		XSSFWorkbook workbook=new XSSFWorkbook(excelFile);		
+		XSSFSheet sheet=workbook.getSheet("Sheet1");
+		
+
+		Row sheetRow=sheet.getRow(1);
+		
+		By welcomeAdminElement=By.id(pr.getProperty("WelcomeAdminElement"));
+		WebElement welcomeAdminL=driver.findElement(welcomeAdminElement);
+		welcomeAdminL.click();
+		
+		Thread.sleep(1500);
+		
+		
+		
+	}
+}

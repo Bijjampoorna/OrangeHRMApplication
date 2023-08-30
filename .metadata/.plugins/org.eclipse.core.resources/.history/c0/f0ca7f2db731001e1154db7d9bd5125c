@@ -1,0 +1,23 @@
+package com.javaExamples;
+
+public class InheritenceEx 
+{
+
+	public void singleIn()
+	{
+		int a,b,c;
+		a=10;
+		b=20;
+		c=a*b;
+		System.out.println("The mutliple of two values is-"+c);				
+	}
+}
+
+ class SingleInheritence extends InheritenceEx
+{
+	public static void main(String[] args) 
+	{
+		SingleInheritence si=new SingleInheritence();
+		si.singleIn();
+	}
+}

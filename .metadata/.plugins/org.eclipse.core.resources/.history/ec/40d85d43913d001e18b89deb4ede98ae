@@ -1,0 +1,17 @@
+package com.WebdriverExamples;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Tc_005_Alerts
+{
+	 WebDriver driver;
+	 String urlAddress="https://www.tsrtconline.in/oprs-web/";
+	
+	public void setUp()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\bijja\\Desktop\\OrangeHRMApplication\\selTraining\\DriverFiles\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get(urlAddress);
+	}
+}

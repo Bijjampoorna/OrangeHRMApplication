@@ -1,0 +1,9 @@
+loginPanelElement=logInPanelHeading
+usernameElement=txtUsername
+passwordElement=txtPassword
+loginButtonElemnt=btnLogin
+logOutElement=Logout
+welcomeAdminElement=welcome
+pIMElementL=menu_pim_viewPimModule
+addEmployeeL=menu_pim_addEmployee
+addEmployeePageL=/html/body/div[1]/div[3]/div/div[1]/h1

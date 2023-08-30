@@ -1,0 +1,16 @@
+package com.RadioButtonClick;
+
+public class RadioButtonClickOP extends RadioButtonTesting 
+{
+
+	public void clickOperation()
+	{
+		
+		ClickOperation object=new ClickOperation();
+		object.applicationLaunch();
+		object.radioButtonElement();
+		
+	}
+	
+	
+}
